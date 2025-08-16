@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | 厦门大学智能医疗实验室</title>
+    <link>/project/</link>
+      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Projects</title>
+      <link>/project/</link>
+    </image>
+    
+    <item>
+      <title>DIA 质谱数据分析</title>
+      <link>/project/two/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/two/</guid>
+      <description>&lt;p&gt;随着生命科学的快速发展，蛋白质组学的关注焦点和研究趋势已经逐渐从定性转向定量。定量蛋白质组学是对细胞、组织乃至整个生物体的蛋白质表达量及差异进行分析，对于生物过程机理的探索和临床诊断标志物的发现与验证具有重要意义。基于静电场轨道阱 Orbitrap 的数据非依赖采集（DIA，Data independent acquisition）是一项全新的、全息式的质谱技术。DIA 将质谱整个全扫描范围分为若干个窗口，高速、循环地对每个窗口中的所有离子进行选择、碎裂、检测，从而无遗漏、无差异地获得样本中所有离子的全部碎片信息。但如此大的母离子隔离窗口将会同时引入大量肽段，将其同时碎裂，这些窗口里会同时引入数十个甚至数百个共碎裂的肽段，从而产生了高度混合而卷积的MS2谱图。从这些谱图提取准确的蛋白定性和定量信息，一直是一个难题。&lt;/p&gt;
+&lt;p&gt;该研究方向主要包含如下子课题：&lt;/p&gt;
+&lt;p&gt;l 利用深度学习算法进行谱图信息提取&lt;/p&gt;
+&lt;p&gt;l 利用机器学习算法进行蛋白肽段的识别和错误率控制，提高 DIA 数据有效肽段的产出&lt;/p&gt;
+&lt;p&gt;合作导师：韩家淮、帅建伟、钟传奇&lt;/p&gt;
+&lt;p&gt;学生：高铭暄、刘亚琛、李陈鑫&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>单细胞影像和肿瘤免疫微环境分析</title>
+      <link>/project/one/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/one/</guid>
+      <description>&lt;p&gt;近年来，癌症的免疫治疗取得了巨大进展，然而，仅有一小部分病人对免疫治疗应答。目前，尚无有效的 biomarker 用于免疫治疗应答病人的筛选。我们认为，免疫治疗应答的关键在于肿瘤免疫微环境的构成。对肿瘤微环境不同细胞类型和状态的识别和分析，可以让我们进一步了解肿瘤对免疫治疗应答的机制，从而开发更有效的免疫治疗 biomarker 和联合治疗方案。&lt;/p&gt;
+&lt;p&gt;该研究方向主要包含如下子课题：&lt;/p&gt;
+&lt;p&gt;l 基于深度学习的反卷积算法，通过 bulky RNA-seq进行肿瘤微环境细胞成份分析&lt;/p&gt;
+&lt;p&gt;l 通过 IMC 蛋白成像和空间转录本技术，对肿瘤病理切片进行分析，对免疫相关细胞进行定位，并进行细胞亚型和状态分析&lt;/p&gt;
+&lt;p&gt;l 提取不同免疫细胞的时间和空间域分布特征，构造机器学习模型对不同免疫治疗方案的应答进行预测。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>智能医学生物平台技术</title>
+      <link>/project/three/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/three/</guid>
+      <description>&lt;p&gt;人工智能离不开有效的数据。目前，精准医疗产生了海量的包含图像和基因测序等多组学医学数据。能否实现这些数据的存储，传输和高效分析是医学人工智能能否实现和推广的关键。同时，随着医院信息化的不断普及与推广，收集及共享各类医疗数据已成为可能，但是由于医疗数据所涉及到个人隐私及利益分配问题。如何在不损害医疗数据资产所有权和隐私的前提下，有效使用分布式机器学习算法进行安全的数据挖掘，已经成为人工智能在医疗行业能否真正落地的核心问题。&lt;/p&gt;
+&lt;p&gt;该研究方向主要包含如下子课题：&lt;/p&gt;
+&lt;p&gt;l 利用机器学习算法，实现高维度多组学（图像，DNA，RNA，protein）数据的联合分析&lt;/p&gt;
+&lt;p&gt;l 面向人工智能应用的多组学数据压缩&lt;/p&gt;
+&lt;p&gt;l 医疗大数据分布式机器学习算法开发&lt;/p&gt;
+&lt;p&gt;目前，本课题组已经同生科院和医学院合作团队在以上方向开展研究合作，并已经完成宏基因组病毒检测和单细胞数据分析两个生物大数据分析云平台的初步开发。团队开发的基因组数据分析算法和低丰度致病菌检测算法也在美国 FDA 比赛中名列前茅。&lt;/p&gt;
+&lt;p&gt;合作导师：范晓亮、黄嘉良、毛开睿、林世明&lt;/p&gt;
+&lt;p&gt;学生：黄丽红、凌明毅、唐鑫威、谭立轩、刘钰&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

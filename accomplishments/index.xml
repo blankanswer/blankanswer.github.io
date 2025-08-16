@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Accomplishments | 厦门大学智能医疗实验室</title>
+    <link>/accomplishments/</link>
+      <atom:link href="/accomplishments/index.xml" rel="self" type="application/rss+xml" />
+    <description>Accomplishments</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Accomplishments</title>
+      <link>/accomplishments/</link>
+    </image>
+    
+    <item>
+      <title>发表论文</title>
+      <link>/accomplishments/%E5%8F%91%E8%A1%A8%E8%AE%BA%E6%96%87/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/accomplishments/%E5%8F%91%E8%A1%A8%E8%AE%BA%E6%96%87/</guid>
+      <description>&lt;p&gt;&lt;b&gt;俞容山教授代表性论文:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;R. Yu and W. Yang, “ScaleQC: A Scalable Lossy to Lossless Solution for NGS Data Compression,” Bioinformatics, 2020&lt;/p&gt;
+&lt;p&gt;M. Gao, M. Ling, X. Tang, S. Wang, X. Xiao, Y. Qiao, W. Yang, R. Yu, “Comparison of High-Throughput Single-Cell RNA Sequencing Data Processing Pipelines,” Brief in Bioinformatics, 2020&lt;/p&gt;
+&lt;p&gt;L. Wang, Y. Jiao, Y. Qiao, N. Zeng, R. Yu, “A novel approach combined transfer learning and deep learning to predict TMB from histology image,” Pattern Recognition Letters, 2020&lt;/p&gt;
+&lt;p&gt;Y Lin, H Li, X Xiao, W Yang, R Yu, “DAISM-DNN: Highly accurate cell type proportion estimation with in silico data augmentation and deep neural networks,” bioRxiv, 2020&lt;/p&gt;
+&lt;p&gt;W. Yang, L. Huang, C. Shi, L. Wang, R. Yu, “UltraStrain: An NGS-Based Ultra Sensitive Strain Typing Method for Salmonella enterica,” Frontiers in Genetics, 2019&lt;/p&gt;
+&lt;p&gt;S. Wang, W, Yang, X. Zhang, R. Yu, “Performance Evaluation of IMP: A Rapid Secondary Analysis Pipeline for NGS Data,” IEEE International Conference on Bioinformatics and Biomedicine (BIBM) 2018&lt;/p&gt;
+&lt;p&gt;W. Yang, Y. Lin, S. Wu, R. Yu, “Improving Coding Efficiency of MPEG-G Standard Using Context-Based Arithmetic Coding,” IEEE International Conference on Bioinformatics and Biomedicine (BIBM) 2018&lt;/p&gt;
+&lt;p&gt;J. Hu, C. Si, M. Lind, R. Yu, “Preventing distribution grid congestion by integrating indirect control in a hierarchical electric vehicles’ management system,” IEEE Transactions on Transportation Electrification, Vol 2, No. 3, 2016&lt;/p&gt;
+&lt;p&gt;H. Shu, R. Yu, W. Jiang and W. Yang, &amp;ldquo;Efficient Implementation of $k$-Nearest Neighbor Classifier Using Vote Count Circuit,&amp;rdquo; IEEE Transactions on Circuit and System II, Vol. 61, No. 6, June 2014.&lt;/p&gt;
+&lt;p&gt;R. Yu, H. Shu and W. Jiang, &amp;ldquo;Low Complexity Packet Scheduling Algorithms for Streaming Scalable Media Based on Time Utility Function,&amp;rdquo; IEEE Transactions on Multimedia, Vol. 16 , No. 8, pp. 2270 - 2280, Sep 2014.&lt;/p&gt;
+&lt;p&gt;H. Shu, W. Yang, C. C. Chai and R. Yu, &amp;ldquo;Demand Response Based on Voluntary Time Dependent Pricing Scheme,&amp;rdquo; APSIPA Transactions on Signal and Information Processing, volume 3, 2014&lt;/p&gt;
+&lt;p&gt;R. Yu, Y. Song and M. Nambiar, &amp;ldquo;System Identification Using Prominent Subspace LMS,&amp;rdquo; Digital Signal Processing 27, 44-56, 2014&lt;/p&gt;
+&lt;p&gt;W. Yang, R. Yu, M. Nambiar, &amp;ldquo;Quantifying the Benefits to Consumers for Demand Response with a Statistical Elasticity Model&amp;rdquo;, IET Generation, Transmission &amp;amp; Distribution, Volume 8, Issue 3, p. 503 – 515, March 2014.&lt;/p&gt;
+&lt;p&gt;H. Shu, R. Yu and H. Huang, &amp;ldquo;&amp;lsquo;Optimal Normalization of Prediction Residual for Predictive Coding with Random Access,&amp;rdquo; IET Signal Processing 09/2014 8(7):710-719&lt;/p&gt;
+&lt;p&gt;H. Huang, H. Shu and R. Yu, &amp;ldquo;Lossless Audio Compression in the New IEEE Standard for Advanced Audio Coding,&amp;rdquo; ICASSP 2014.&lt;/p&gt;
+&lt;p&gt;W. Jiang, R. Yu, &amp;ldquo;High-Performance, Very Low Power Content-based Search Engine,&amp;rdquo; IEEE International Conference of Multimedia and Expo (ICME) 2013&lt;/p&gt;
+&lt;p&gt;R. Yu, &amp;ldquo;Speech enhancement based on soft audible noise masking and noise power estimation&amp;rdquo;, Speech Communication, 55 (2013), pp. 964-974, 2013.&lt;/p&gt;
+&lt;p&gt;R. Yu, W. Yang, and S. Rahardja, “A statistical demand-price model with its application in optimal real-time price of electricity,” IEEE Transactions on Smart Grid, Vol. 3, No. 4, Dec 2012.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;学生论文:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Lihong Huang, Bin Hong, Wenxian Yang, Liansheng Wang, Rongshan Yu，Snipe: highly sensitive pathogen detection from metagenomic sequencing data，Briefings in Bioinformatics，Published: 05 April 2021&lt;/p&gt;
+&lt;p&gt;Zheng Wang, Xiaoliang Fan*, Jianzhong Qi, Cheng Wang, Rongshan Yu, Chenglu Wen, Federated Learning with Fair Averaging, 30th International Joint Conference on Artificial Intelligence, Montreal-themed Virtual Reality (AAAI21), August 21-26, 2021, Accepted. [CCF A类会议，Acceptance rate: 13.9%].&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>科研成果</title>
+      <link>/accomplishments/%E7%A7%91%E7%A0%94%E6%88%90%E6%9E%9C/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/accomplishments/%E7%A7%91%E7%A0%94%E6%88%90%E6%9E%9C/</guid>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;序号&lt;/th&gt;
+&lt;th&gt;作者&lt;/th&gt;
+&lt;th&gt;著作名称&lt;/th&gt;
+&lt;th&gt;著作类别&lt;/th&gt;
+&lt;th&gt;出版时间&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;朱建平等&lt;/td&gt;
+&lt;td&gt;《大数据：统计理论、方法与应用》&lt;/td&gt;
+&lt;td&gt;专著&lt;/td&gt;
+&lt;td&gt;2019年10月北京大学出版社&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;朱建平等&lt;/td&gt;
+&lt;td&gt;《谈谈大数据的那点事》&lt;/td&gt;
+&lt;td&gt;专著&lt;/td&gt;
+&lt;td&gt;2019年10月北京大学出版社&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;朱建平等&lt;/td&gt;
+&lt;td&gt;《经济预测与决策》（第二版）&lt;/td&gt;
+&lt;td&gt;教材&lt;/td&gt;
+&lt;td&gt;2019年7月厦门大学出版社&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;Peng, Sheng-Lung, Pal, Souvik,  Huang,&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;Principles of Internet of  Things (IoT) Ecosystem: Insight Paradigm”&lt;/td&gt;
+&lt;td&gt;专著&lt;/td&gt;
+&lt;td&gt;2019,ISBN: 978-3-030-33595-3.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

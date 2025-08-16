@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>厦门大学智能医疗实验室</title>
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <description>厦门大学智能医疗实验室</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>厦门大学智能医疗实验室</title>
+      <link>/</link>
+    </image>
+    
+    <item>
+      <title>DREAM Challenge Tumor Deconvolution 国际比赛两项第一</title>
+      <link>/post/dream-challenge-tumor-deconvolution-%E5%9B%BD%E9%99%85%E6%AF%94%E8%B5%9B%E4%B8%A4%E9%A1%B9%E7%AC%AC%E4%B8%802020/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/post/dream-challenge-tumor-deconvolution-%E5%9B%BD%E9%99%85%E6%AF%94%E8%B5%9B%E4%B8%A4%E9%A1%B9%E7%AC%AC%E4%B8%802020/</guid>
+      <description>&lt;p&gt;近日，国际计算生物医学领域最具影响力之一的算法挑战赛——DREAM Challenge的Tumor Deconvolution赛事结束，该赛事吸引了众多来自全世界顶级高校及公司研究团队，包括新加坡免疫所，剑桥大学等。最终来自厦门大学信息学院的俞容山教授团队从来自全球的xx组参赛队伍中脱颖而出，获得了全部分项挑战的冠军。&lt;/p&gt;
+&lt;p&gt;Aginome-XMU参赛团队来自我校俞容山教授团队，由信息学院俞容山教授、厦门极元科技杨文娴指导，主要成员包括硕士研究生李豪钧、林雅婷和博士生肖旭等。Aginome-XMU团队主要研究计算机与生物的交叉学科——计算生物学，利用计算机混合模拟异质样本的表达谱，搭建深度神经网络模型实现表达谱到细胞比例的映射，最终提供对8至14种粗类到细类的免疫和基质细胞的比例估计，所提交的模型达到现有免疫细胞丰度估计方法的最优性能。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;center.PNG&#34; alt=&#34;center&#34; style=&#34;zoom:75%;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;DREAM Challenge是生物医药领域最具影响力的开放数据建模旗舰竞赛，旨在通过算法解决当前热点的生物学问题。该赛事根据当下热点的研究问题发起挑战项目，由组织方提供测试数据，并设计不同的任务主题供参赛者进行建模预测，根据预测结果决定优胜者。其第三方验证的特性保证了算法的可重复性，使得算法能得到最有效的验证，从而在推动在该研究领域的进展。目前已经完成了50多项挑战，产生了90多个出版物。&lt;/p&gt;
+&lt;p&gt;这项挑战的目的是评估计算方法将反映细胞类型混合的异质样本表达数据分解为单个免疫细胞成分的能力。该赛事由法国居里研究所（Institut Curie）、（法国）国家癌症防治联盟（Ligue Nationale contre le Cancer）、俄勒冈健康与科学大学（Oregon Health and Science University）、美国赛智生物网络研究所（Sage Bionetworks）与美国斯坦福大学(Stanford University)共同主办。主办方基于微阵列和RNA-seq平台生成在体外和计算机上的混合物。 因此，已知的混合比例将为方法比较和评估提供黄金标准。其中一些混合样本将包含“未知内容”，即来自未公开的细胞类型，并且混合样本包括乳腺癌或结肠直肠癌细胞。两个子挑战分别为估计8种粗类的细胞类型和14种细类的细胞类型的比例。在这一挑战中，参与者将使用计算的方法从由免疫，癌症和其他与肿瘤相关的非恶性细胞组成的混合物的大量RNA表达谱中解卷积出其中免疫和基质细胞的构成比例。&lt;/p&gt;
+&lt;p&gt;该研究能够掌握肿瘤微环境的免疫细胞丰度变化，为免疫应答及免疫治疗提供精确的辅助参考，从而让医生能够快速的掌握病人肿瘤病变位置的免疫细胞成分变化，为治疗与用药提供数据支持。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FDA举办食源性病原体检测挑战赛</title>
+      <link>/post/fda%E4%B8%BE%E5%8A%9E%E9%A3%9F%E6%BA%90%E6%80%A7%E7%97%85%E5%8E%9F%E4%BD%93%E6%A3%80%E6%B5%8B%E6%8C%91%E6%88%98%E8%B5%9B2017/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/post/fda%E4%B8%BE%E5%8A%9E%E9%A3%9F%E6%BA%90%E6%80%A7%E7%97%85%E5%8E%9F%E4%BD%93%E6%A3%80%E6%B5%8B%E6%8C%91%E6%88%98%E8%B5%9B2017/</guid>
+      <description>&lt;p&gt;近期美国食品药品监督局FDA通过在线平台precisionFDA （https://precision.fda.gov）举办了CFSAN Pathogen Detection 挑战赛，目的是在宏基因组测序样本中鉴定出沙门氏菌株的分布和类型。该比赛在今年2月16号-4月19号在precisionFDA平台上举办，后来因未知原因，最后一刻延迟一周，改4.26截止。 最终成绩于近日在FDA网站（https://precision.fda.gov/challenges/2/view/results）上在线公布 。&lt;/p&gt;
+&lt;p&gt;precisionFDA平台是基因组信息学社区和共享数据平台。通过该平台， FDA提供了一个安全、开放、透明的云平台性质的基因组织，使研究人员和测试人员可以探索NGS方法、为下一代测序诊断提供依据，推动创新并制定必要的标准。该平台为所有开发者提供了统一的、可共享的基因组信息数据库、用于大量测序数据分析流程运行的计算环境，以及与广大的科学界人士共享分析流程和结果的版块。通过实验、数据和工具的共享，协作以及标准的制定，precisionFDA的设立“有助于推动科学的监管、评估基因测试和软件的准确性”。&lt;/p&gt;
+&lt;p&gt;这一次的CFSAN Pathogen Detection比赛，将目标转向了食源性致病菌的检测，据相关统计报道，在美国每年因食源性致病菌感染人数有4800万，造成住院和死亡人数达到128,000和3,000人，据估计，每年的经济负担累计为1520亿美元， 其中包括因新鲜和加工农产品受到污染而造成390亿美元损失。日前，一篇题为《流感下的北京中年》的文章在微信朋友圈做到了真正意义上的刷屏，作者用日记的方式来记录岳父从流感到肺炎，从门诊到ICU，仅仅29天阴阳两隔的经历。就作者提供的案例而言，北京典型的中产阶层，名牌大学金融硕士，有房有车，现金流可观，但即便如此，遇上了ICU一天2万元的开销，能坚持的时间也就几十天。由此可见提供一种快速有效的临床病原体检测方案尤为重要。&lt;/p&gt;
+&lt;p&gt;近年来， 新一代测序技术在食源性致病菌全基因组测序 （WGS）中的应用，彻底改变了食品病原体检测方式，传统的检测方法耗时长，分辨率较低，常常无法确定病原体与患病者之间的关系，而宏基因组学（Metagenomics）可直接从环境样品中提取全部微生物的DNA，采用对微生物基因组测序的方法能够在亲源性极相近的菌株间加以区分，为临床诊断、食品安全、生物安全提供参考。&lt;/p&gt;
+&lt;p&gt;在这一次挑战中，FDA提供了32个宏基因组测序样品，24个作为测试集，8个作为训练集，参与者需要开发和应用生物信息学方法，在FDA提供的24个宏基因组测序样品中鉴定出特定的沙门氏菌类型，评判的标准包括是否能够鉴定出存在的沙门氏菌、沙门氏菌菌株类型、血清型和MLST类型。本次比赛一共有12家机构/个人提交了比赛结果，包括美国食品药品监管局 （FDA），美国国立生物技术信息中心 （NCBI），Google，Y Combinator 旗下创业公司 One Codex以及由新加坡海归创立的厦门极元科技有限公司（Aginome Scientific）等机构。根据公开数据显示，在正常截止时间之前提交的结果中，厦门极元科技综合排名第一，多个单项成绩第一。推迟一周提交的One Codex总分46， 比厦门极元科技多一分。NCBI、Google和FDA排名相对靠后。下图是这次比赛成绩的总结，标红为于原截止日期之后提交结果的机构包括One Codex和Seven Bridges Genomics：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;center.png&#34; alt=&#34;center&#34; style=&#34;zoom:50%;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;​	距上次FDA Hidden Treasures挑战赛的热身赛取得好成绩之后，厦门极元科技在微生物高通量测序病原体的检测方面再次取得总分第二的好成绩，此次比赛有助于为临床病原体的快速鉴定提供可行方案，包括各种常见的沙门菌 (Salmonella)、李斯特菌 (Listeria)、大肠埃希菌 (O157:H7)、弯曲菌 (Campylobacter)、弧菌 (Vibrio)、阪崎肠杆菌 (C. sakazakii) 以及新兴病原体的检测。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>儿科临床智能辅助诊疗系统-入选国家卫健委统计信息中心颁发的“医疗健康人工智能落地 30 最佳案例</title>
+      <link>/post/%E5%84%BF%E7%A7%91%E4%B8%B4%E5%BA%8A%E6%99%BA%E8%83%BD%E8%BE%85%E5%8A%A9%E8%AF%8A%E7%96%97%E7%B3%BB%E7%BB%9F-%E5%85%A5%E9%80%89%E5%9B%BD%E5%AE%B6%E5%8D%AB%E5%81%A5%E5%A7%94%E7%BB%9F%E8%AE%A1%E4%BF%A1%E6%81%AF%E4%B8%AD%E5%BF%83%E9%A2%81%E5%8F%91%E7%9A%84%E5%8C%BB%E7%96%97%E5%81%A5%E5%BA%B7%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E8%90%BD%E5%9C%B0-30-%E6%9C%80%E4%BD%B3%E6%A1%88%E4%BE%8B2019/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/post/%E5%84%BF%E7%A7%91%E4%B8%B4%E5%BA%8A%E6%99%BA%E8%83%BD%E8%BE%85%E5%8A%A9%E8%AF%8A%E7%96%97%E7%B3%BB%E7%BB%9F-%E5%85%A5%E9%80%89%E5%9B%BD%E5%AE%B6%E5%8D%AB%E5%81%A5%E5%A7%94%E7%BB%9F%E8%AE%A1%E4%BF%A1%E6%81%AF%E4%B8%AD%E5%BF%83%E9%A2%81%E5%8F%91%E7%9A%84%E5%8C%BB%E7%96%97%E5%81%A5%E5%BA%B7%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E8%90%BD%E5%9C%B0-30-%E6%9C%80%E4%BD%B3%E6%A1%88%E4%BE%8B2019/</guid>
+      <description>&lt;p&gt;厦门大学数字福建健康医疗大数据研究所和厦门大学附属第一医院(负责人：吴谨准）联合申报的厦门市儿科国分级诊疗-智能辅助诊疗系统，带领 7 所院校，7 家信息以及生物公司，2015 年获国家发改委现代服务综合项目项目 400 万元建设经费，历经三年硏发，总投入 2710.94 万元，2018 年厦门大学-数字福建健康医疗大数据研究所研究所又获福建省发改委 100 万元的建设经费，历经 3 年。该系统总投入 2710.94 万元，建立儿科智能公共服务平台，在市卫计委儿科分级诊疗的全局部属下，建立儿科临床数据库，开发符合社区应用的儿科电子病历并组织 8 场培训，在第一医院 110 万份电子病历基础上进行深度学习，应用人工智能算法，形成智能病历书写、危重症识别，智能辅助诊断、罕见病辅助诊断及临床合理用药，在 HIS工作开发儿科医生小助手模块，帮助基层儿科医生提升儿科综合诊治能力，系统应用投入一年多以来，基层医生在电子病历中可实现病历智能辅助书写、危重症的识别提醒、罕见病的鉴别以及儿科合理用药的实时建议，我杜区 2018 年完成智能电子病历 3834 份，2019 年 1-2 月完 成 863 份.基层社区医生接诊儿科病人的积极性明显提高，信心明显増加。&lt;/p&gt;
+&lt;p&gt;儿科临床智能辅助诊疗系统应用厦门大学附属儿科的110万份门急诊电子病历以及10万份住院病历进行深度学习以及智能信息建模，通过一些人工智能技术处理先后研发出符合儿科临床的应用需求的智能病历辅助书写、智能辅助诊断系统、儿童罕见病辅助诊断以及儿科用药辅助系统等临床智能化微应用。该系统利用网络化途径，通过自然语言分析，专科知识库的等基础研发，结合三甲医院医院国家临床重点专科110份儿科电子数据挖掘，机器学习，形成一套儿科智能辅助诊疗系统下放基础，一定程度上实现了专家下放基础的效果，所有基层电子病历诊疗信息上传至市委卫计委的儿科大数据中心，方便对基础儿科的医疗系服务进行质控分析，对规范基础儿科的诊疗，提高合理用药具有实际的操作意义。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;center.png&#34; alt=&#34;center&#34; style=&#34;zoom:50%;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>发表论文</title>
+      <link>/accomplishments/%E5%8F%91%E8%A1%A8%E8%AE%BA%E6%96%87/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/accomplishments/%E5%8F%91%E8%A1%A8%E8%AE%BA%E6%96%87/</guid>
+      <description>&lt;p&gt;&lt;b&gt;俞容山教授代表性论文:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;R. Yu and W. Yang, “ScaleQC: A Scalable Lossy to Lossless Solution for NGS Data Compression,” Bioinformatics, 2020&lt;/p&gt;
+&lt;p&gt;M. Gao, M. Ling, X. Tang, S. Wang, X. Xiao, Y. Qiao, W. Yang, R. Yu, “Comparison of High-Throughput Single-Cell RNA Sequencing Data Processing Pipelines,” Brief in Bioinformatics, 2020&lt;/p&gt;
+&lt;p&gt;L. Wang, Y. Jiao, Y. Qiao, N. Zeng, R. Yu, “A novel approach combined transfer learning and deep learning to predict TMB from histology image,” Pattern Recognition Letters, 2020&lt;/p&gt;
+&lt;p&gt;Y Lin, H Li, X Xiao, W Yang, R Yu, “DAISM-DNN: Highly accurate cell type proportion estimation with in silico data augmentation and deep neural networks,” bioRxiv, 2020&lt;/p&gt;
+&lt;p&gt;W. Yang, L. Huang, C. Shi, L. Wang, R. Yu, “UltraStrain: An NGS-Based Ultra Sensitive Strain Typing Method for Salmonella enterica,” Frontiers in Genetics, 2019&lt;/p&gt;
+&lt;p&gt;S. Wang, W, Yang, X. Zhang, R. Yu, “Performance Evaluation of IMP: A Rapid Secondary Analysis Pipeline for NGS Data,” IEEE International Conference on Bioinformatics and Biomedicine (BIBM) 2018&lt;/p&gt;
+&lt;p&gt;W. Yang, Y. Lin, S. Wu, R. Yu, “Improving Coding Efficiency of MPEG-G Standard Using Context-Based Arithmetic Coding,” IEEE International Conference on Bioinformatics and Biomedicine (BIBM) 2018&lt;/p&gt;
+&lt;p&gt;J. Hu, C. Si, M. Lind, R. Yu, “Preventing distribution grid congestion by integrating indirect control in a hierarchical electric vehicles’ management system,” IEEE Transactions on Transportation Electrification, Vol 2, No. 3, 2016&lt;/p&gt;
+&lt;p&gt;H. Shu, R. Yu, W. Jiang and W. Yang, &amp;ldquo;Efficient Implementation of $k$-Nearest Neighbor Classifier Using Vote Count Circuit,&amp;rdquo; IEEE Transactions on Circuit and System II, Vol. 61, No. 6, June 2014.&lt;/p&gt;
+&lt;p&gt;R. Yu, H. Shu and W. Jiang, &amp;ldquo;Low Complexity Packet Scheduling Algorithms for Streaming Scalable Media Based on Time Utility Function,&amp;rdquo; IEEE Transactions on Multimedia, Vol. 16 , No. 8, pp. 2270 - 2280, Sep 2014.&lt;/p&gt;
+&lt;p&gt;H. Shu, W. Yang, C. C. Chai and R. Yu, &amp;ldquo;Demand Response Based on Voluntary Time Dependent Pricing Scheme,&amp;rdquo; APSIPA Transactions on Signal and Information Processing, volume 3, 2014&lt;/p&gt;
+&lt;p&gt;R. Yu, Y. Song and M. Nambiar, &amp;ldquo;System Identification Using Prominent Subspace LMS,&amp;rdquo; Digital Signal Processing 27, 44-56, 2014&lt;/p&gt;
+&lt;p&gt;W. Yang, R. Yu, M. Nambiar, &amp;ldquo;Quantifying the Benefits to Consumers for Demand Response with a Statistical Elasticity Model&amp;rdquo;, IET Generation, Transmission &amp;amp; Distribution, Volume 8, Issue 3, p. 503 – 515, March 2014.&lt;/p&gt;
+&lt;p&gt;H. Shu, R. Yu and H. Huang, &amp;ldquo;&amp;lsquo;Optimal Normalization of Prediction Residual for Predictive Coding with Random Access,&amp;rdquo; IET Signal Processing 09/2014 8(7):710-719&lt;/p&gt;
+&lt;p&gt;H. Huang, H. Shu and R. Yu, &amp;ldquo;Lossless Audio Compression in the New IEEE Standard for Advanced Audio Coding,&amp;rdquo; ICASSP 2014.&lt;/p&gt;
+&lt;p&gt;W. Jiang, R. Yu, &amp;ldquo;High-Performance, Very Low Power Content-based Search Engine,&amp;rdquo; IEEE International Conference of Multimedia and Expo (ICME) 2013&lt;/p&gt;
+&lt;p&gt;R. Yu, &amp;ldquo;Speech enhancement based on soft audible noise masking and noise power estimation&amp;rdquo;, Speech Communication, 55 (2013), pp. 964-974, 2013.&lt;/p&gt;
+&lt;p&gt;R. Yu, W. Yang, and S. Rahardja, “A statistical demand-price model with its application in optimal real-time price of electricity,” IEEE Transactions on Smart Grid, Vol. 3, No. 4, Dec 2012.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;学生论文:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Lihong Huang, Bin Hong, Wenxian Yang, Liansheng Wang, Rongshan Yu，Snipe: highly sensitive pathogen detection from metagenomic sequencing data，Briefings in Bioinformatics，Published: 05 April 2021&lt;/p&gt;
+&lt;p&gt;Zheng Wang, Xiaoliang Fan*, Jianzhong Qi, Cheng Wang, Rongshan Yu, Chenglu Wen, Federated Learning with Fair Averaging, 30th International Joint Conference on Artificial Intelligence, Montreal-themed Virtual Reality (AAAI21), August 21-26, 2021, Accepted. [CCF A类会议，Acceptance rate: 13.9%].&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>新闻动态</title>
+      <link>/post/%E6%96%B0%E9%97%BB%E5%8A%A8%E6%80%81/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/post/%E6%96%B0%E9%97%BB%E5%8A%A8%E6%80%81/</guid>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;发布时间&lt;/th&gt;
+&lt;th&gt;标题&lt;/th&gt;
+&lt;th&gt;链接&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;20210413&lt;/td&gt;
+&lt;td&gt;俞容山教授团队在计算生物领域国际比赛连续两次获得优异成绩&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://nidshm.xmu.edu.cn/info/1012/1421.htm&#34;&gt;https://nidshm.xmu.edu.cn/info/1012/1421.htm&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;20200224&lt;/td&gt;
+&lt;td&gt;王连生副教授团队在ICIAR2020国际会议LNDb  Challenge中获一项第一&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://nidshm.xmu.edu.cn/info/1012/1311.htm&#34;&gt;https://nidshm.xmu.edu.cn/info/1012/1311.htm&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;20200224&lt;/td&gt;
+&lt;td&gt;范晓亮高级工程师科研战“疫”&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://information.xmu.edu.cn/info/1033/9249.htm&#34;&gt;https://information.xmu.edu.cn/info/1033/9249.htm&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2020224&lt;/td&gt;
+&lt;td&gt;王连生副教授的论文被国际顶级会议CVPR2020录用&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://information.xmu.edu.cn/info/1053/9257.htm&#34;&gt;https://information.xmu.edu.cn/info/1053/9257.htm&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;20200110&lt;/td&gt;
+&lt;td&gt;俞容山教授接待香港科技园代表&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://nidshm.xmu.edu.cn/info/1012/1301.htm&#34;&gt;https://nidshm.xmu.edu.cn/info/1012/1301.htm&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;20191221&lt;/td&gt;
+&lt;td&gt;俞容山教授组织艾德生物奖学金师生参访艾德生物&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://nidshm.xmu.edu.cn/info/1012/1281.htm&#34;&gt;https://nidshm.xmu.edu.cn/info/1012/1281.htm&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;20191123&lt;/td&gt;
+&lt;td&gt;俞容山教授出席第五届海峡两岸暨世界华人微生态与智能内窥镜高端论坛&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.acsme.org.cn/xwdt/202001/t20200117_12233759.html&#34;&gt;http://www.acsme.org.cn/xwdt/202001/t20200117_12233759.html&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;20191110&lt;/td&gt;
+&lt;td&gt;俞容山教授带领获得艾德生物奖学金学生开展系列活动&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://nidshm.xmu.edu.cn/info/1012/1251.htm&#34;&gt;https://nidshm.xmu.edu.cn/info/1012/1251.htm&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;20190809&lt;/td&gt;
+&lt;td&gt;俞容山教授与CARE数据分析系统-让肿瘤精准医疗更精准&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.sohu.com/a/333428840_198753&#34;&gt;https://www.sohu.com/a/333428840_198753&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;20190531&lt;/td&gt;
+&lt;td&gt;俞容山教授与艾德生物签订合作协议并设置本科奖学金（3万/生）&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://information.xmu.edu.cn/info/1033/8162.htm&#34;&gt;https://information.xmu.edu.cn/info/1033/8162.htm&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;20190708&lt;/td&gt;
+&lt;td&gt;俞容山教授与绿色超算科学-大基因中心这项技术夺得世界第二&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://cloud.tencent.com/developer/news/274652&#34;&gt;https://cloud.tencent.com/developer/news/274652&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;20190402&lt;/td&gt;
+&lt;td&gt;厦门大学附属心血管病医院举行心血管大数据与人工智能学术研讨会&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://information.xmu.edu.cn/info/1033/7808.htm&#34;&gt;https://information.xmu.edu.cn/info/1033/7808.htm&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;20180410&lt;/td&gt;
+&lt;td&gt;实验室举办2018年IEEE SPS Summer School&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://iot2018.wordpress.com/&#34;&gt;https://iot2018.wordpress.com/&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;20180408&lt;/td&gt;
+&lt;td&gt;数字福建健康医疗大数据研究所挂牌仪式暨学术研讨会成功举行&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://information.xmu.edu.cn/info/1033/6381.htm&#34;&gt;https://information.xmu.edu.cn/info/1033/6381.htm&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;20180309&lt;/td&gt;
+&lt;td&gt;王连生副教授指导学生论文荣获2017年福建省研究生优秀学位论文&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://information.xmu.edu.cn/info/1033/5060.htm&#34;&gt;https://information.xmu.edu.cn/info/1033/5060.htm&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;20171017&lt;/td&gt;
+&lt;td&gt;“中国心血管健康联盟大数据厦门中心学术交流会&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://news.xmu.edu.cn/2018/0313/c1558a333485/page.htm&#34;&gt;https://news.xmu.edu.cn/2018/0313/c1558a333485/page.htm&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>科研成果</title>
+      <link>/accomplishments/%E7%A7%91%E7%A0%94%E6%88%90%E6%9E%9C/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/accomplishments/%E7%A7%91%E7%A0%94%E6%88%90%E6%9E%9C/</guid>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;序号&lt;/th&gt;
+&lt;th&gt;作者&lt;/th&gt;
+&lt;th&gt;著作名称&lt;/th&gt;
+&lt;th&gt;著作类别&lt;/th&gt;
+&lt;th&gt;出版时间&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;朱建平等&lt;/td&gt;
+&lt;td&gt;《大数据：统计理论、方法与应用》&lt;/td&gt;
+&lt;td&gt;专著&lt;/td&gt;
+&lt;td&gt;2019年10月北京大学出版社&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;朱建平等&lt;/td&gt;
+&lt;td&gt;《谈谈大数据的那点事》&lt;/td&gt;
+&lt;td&gt;专著&lt;/td&gt;
+&lt;td&gt;2019年10月北京大学出版社&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;朱建平等&lt;/td&gt;
+&lt;td&gt;《经济预测与决策》（第二版）&lt;/td&gt;
+&lt;td&gt;教材&lt;/td&gt;
+&lt;td&gt;2019年7月厦门大学出版社&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;Peng, Sheng-Lung, Pal, Souvik,  Huang,&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;Principles of Internet of  Things (IoT) Ecosystem: Insight Paradigm”&lt;/td&gt;
+&lt;td&gt;专著&lt;/td&gt;
+&lt;td&gt;2019,ISBN: 978-3-030-33595-3.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>/slides/example/slides/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/slides/example/slides/</guid>
+      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
+if porridge == &amp;quot;blueberry&amp;quot;:
+    print(&amp;quot;Eating...&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+&lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+Three
+&lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
+- Only the speaker can read these notes
+- Press `S` key to view
+{{% /speaker_note %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/media/boards.jpg&amp;quot; &amp;gt;}}
+{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
+{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
+.reveal section h2,
+.reveal section h3 {
+  color: navy;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DIA 质谱数据分析</title>
+      <link>/project/two/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/two/</guid>
+      <description>&lt;p&gt;随着生命科学的快速发展，蛋白质组学的关注焦点和研究趋势已经逐渐从定性转向定量。定量蛋白质组学是对细胞、组织乃至整个生物体的蛋白质表达量及差异进行分析，对于生物过程机理的探索和临床诊断标志物的发现与验证具有重要意义。基于静电场轨道阱 Orbitrap 的数据非依赖采集（DIA，Data independent acquisition）是一项全新的、全息式的质谱技术。DIA 将质谱整个全扫描范围分为若干个窗口，高速、循环地对每个窗口中的所有离子进行选择、碎裂、检测，从而无遗漏、无差异地获得样本中所有离子的全部碎片信息。但如此大的母离子隔离窗口将会同时引入大量肽段，将其同时碎裂，这些窗口里会同时引入数十个甚至数百个共碎裂的肽段，从而产生了高度混合而卷积的MS2谱图。从这些谱图提取准确的蛋白定性和定量信息，一直是一个难题。&lt;/p&gt;
+&lt;p&gt;该研究方向主要包含如下子课题：&lt;/p&gt;
+&lt;p&gt;l 利用深度学习算法进行谱图信息提取&lt;/p&gt;
+&lt;p&gt;l 利用机器学习算法进行蛋白肽段的识别和错误率控制，提高 DIA 数据有效肽段的产出&lt;/p&gt;
+&lt;p&gt;合作导师：韩家淮、帅建伟、钟传奇&lt;/p&gt;
+&lt;p&gt;学生：高铭暄、刘亚琛、李陈鑫&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>单细胞影像和肿瘤免疫微环境分析</title>
+      <link>/project/one/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/one/</guid>
+      <description>&lt;p&gt;近年来，癌症的免疫治疗取得了巨大进展，然而，仅有一小部分病人对免疫治疗应答。目前，尚无有效的 biomarker 用于免疫治疗应答病人的筛选。我们认为，免疫治疗应答的关键在于肿瘤免疫微环境的构成。对肿瘤微环境不同细胞类型和状态的识别和分析，可以让我们进一步了解肿瘤对免疫治疗应答的机制，从而开发更有效的免疫治疗 biomarker 和联合治疗方案。&lt;/p&gt;
+&lt;p&gt;该研究方向主要包含如下子课题：&lt;/p&gt;
+&lt;p&gt;l 基于深度学习的反卷积算法，通过 bulky RNA-seq进行肿瘤微环境细胞成份分析&lt;/p&gt;
+&lt;p&gt;l 通过 IMC 蛋白成像和空间转录本技术，对肿瘤病理切片进行分析，对免疫相关细胞进行定位，并进行细胞亚型和状态分析&lt;/p&gt;
+&lt;p&gt;l 提取不同免疫细胞的时间和空间域分布特征，构造机器学习模型对不同免疫治疗方案的应答进行预测。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>智能医学生物平台技术</title>
+      <link>/project/three/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/three/</guid>
+      <description>&lt;p&gt;人工智能离不开有效的数据。目前，精准医疗产生了海量的包含图像和基因测序等多组学医学数据。能否实现这些数据的存储，传输和高效分析是医学人工智能能否实现和推广的关键。同时，随着医院信息化的不断普及与推广，收集及共享各类医疗数据已成为可能，但是由于医疗数据所涉及到个人隐私及利益分配问题。如何在不损害医疗数据资产所有权和隐私的前提下，有效使用分布式机器学习算法进行安全的数据挖掘，已经成为人工智能在医疗行业能否真正落地的核心问题。&lt;/p&gt;
+&lt;p&gt;该研究方向主要包含如下子课题：&lt;/p&gt;
+&lt;p&gt;l 利用机器学习算法，实现高维度多组学（图像，DNA，RNA，protein）数据的联合分析&lt;/p&gt;
+&lt;p&gt;l 面向人工智能应用的多组学数据压缩&lt;/p&gt;
+&lt;p&gt;l 医疗大数据分布式机器学习算法开发&lt;/p&gt;
+&lt;p&gt;目前，本课题组已经同生科院和医学院合作团队在以上方向开展研究合作，并已经完成宏基因组病毒检测和单细胞数据分析两个生物大数据分析云平台的初步开发。团队开发的基因组数据分析算法和低丰度致病菌检测算法也在美国 FDA 比赛中名列前茅。&lt;/p&gt;
+&lt;p&gt;合作导师：范晓亮、黄嘉良、毛开睿、林世明&lt;/p&gt;
+&lt;p&gt;学生：黄丽红、凌明毅、唐鑫威、谭立轩、刘钰&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
