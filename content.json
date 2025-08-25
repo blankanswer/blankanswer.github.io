@@ -1,0 +1,123 @@
+{
+  "siteTitle": "厦门大学xxx实验室",
+  "navItems": [
+    {"id": "projects", "name": "研究方向"},
+    {"id": "posts", "name": "新闻动态"},
+    {"id": "people", "name": "研究团队"},
+    {"id": "accomplishments", "name": "研究成果"}
+  ],
+  "about": {
+    "profile": {
+      "avatar": "/authors/admin/avatar%20_hubdf068b616c98850d052f2225223572b_150409_270x270_fill_lanczos_center_2.png",
+      "name": "xx教授",
+      "website": "https://rongshanyu.wixsite.com/personal"
+    },
+    "title": "厦门大学xxx实验室",
+    "content": [
+      "厦门大学xxx实验室（IDEA）成立于2017年2月，是厦门大学信息学院计算机科学系xx教授组建的科研实验室。xx教授（厦门大学信息学院博士生导师、\"闽江学者\"特聘教授、厦门市\"双百人才\"、现任\"厦门大学健康医疗大数据国家研究院副院长\"、\"厦门大学数字福建健康医疗大数据研究所所长\"。",
+      "xx教授的个人主页：https://rongshanyu.wixsite.com/personal-c.",
+      "厦门大学xxx实验室师资队伍包括xx教授、王连生副教授、范晓亮高级工程师、林世明工程师等，以及25余名在校学生。"
+    ]
+  },
+  "projects": [
+    {
+      "id": "two",
+      "title": "DIA 质谱数据分析",
+      "description": "随着生命科学的快速发展，蛋白质组学的关注焦点和研究趋势已经逐渐从定性转向定量",
+      "image": "/project/two/featured_hu1b440345c79a6a90b26e6af692bdbe52_130659_150x0_resize_lanczos_2.png"
+    },
+    {
+      "id": "one",
+      "title": "单细胞影像和肿瘤免疫微环境分析",
+      "description": "近年来，癌症的免疫治疗取得了巨大进展，然而，仅有一小部分病人对免疫治疗应答。",
+      "image": "/project/one/featured_hu51661e0f756b9d3138ea612a8422b121_189521_150x0_resize_q75_lanczos.jpg"
+    },
+    {
+      "id": "three",
+      "title": "智能医学生物平台技术",
+      "description": "人工智能离不开有效的数据。目前，精准医疗产生了海量的包含图像和基因测序等多组学医学数据",
+      "image": "/project/three/featured_hu51661e0f756b9d3138ea612a8422b121_125297_150x0_resize_q75_lanczos.jpg"
+    }
+  ],
+  "posts": [
+    {
+      "id": "dream-challenge-tumor-deconvolution-国际比赛两项第一2020",
+      "title": "DREAM Challenge Tumor Deconvolution 国际比赛两项第一",
+      "description": "近日，国际计算生物医学领域最具影响力之一的算法挑战赛——DREAM Challenge的Tumor Deconvolution赛事结束",
+      "author": "xx教授",
+      "date": "Dec 13, 2020",
+      "readingTime": "1 min read",
+      "image": "/post/dream-challenge-tumor-deconvolution-%E5%9B%BD%E9%99%85%E6%AF%94%E8%B5%9B%E4%B8%A4%E9%A1%B9%E7%AC%AC%E4%B8%802020/featured_hud4a0602eb411a23bfe5bbd68c8611308_111684_150x0_resize_lanczos_2.png"
+    },
+    {
+      "id": "fda举办食源性病原体检测挑战赛2017_1",
+      "title": "FDA举办食源性病原体检测挑战赛",
+      "description": "近期美国食品药品监督局FDA通过在线平台precisionFDA （https://precision.fda.gov）举办了CFSAN Pathogen Detection 挑战赛",
+      "author": "xx教授",
+      "date": "Dec 13, 2020",
+      "readingTime": "1 min read",
+      "image": "/post/fda举办食源性病原体检测挑战赛2017_1/center.png"
+    },
+    {
+      "id": "%E5%84%BF%E7%A7%91%E4%B8%B4%E5%BA%8A%E6%99%BA%E8%83%BD%E8%BE%85%E5%8A%A9%E8%AF%8A%E7%96%97%E7%B3%BB%E7%BB%9F-%E5%85%A5%E9%80%89%E5%9B%BD%E5%AE%B6%E5%8D%AB%E5%81%A5%E5%A7%94%E7%BB%9F%E8%AE%A1%E4%BF%A1%E6%81%AF%E4%B8%AD%E5%BF%83%E9%A2%81%E5%8F%91%E7%9A%84%E5%8C%BB%E7%96%97%E5%81%A5%E5%BA%B7%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E8%90%BD%E5%9C%B0-30-%E6%9C%80%E4%BD%B3%E6%A1%88%E4%BE%8B2019",
+      "title": "儿科临床智能辅助诊疗系统-入选国家卫健委统计信息中心颁发的\"医疗健康人工智能落地 30 最佳案例\"",
+      "description": "厦门大学数字福建健康医疗大数据研究所和厦门大学附属第一医院(负责人：吴谨准）联合申报的厦门市儿科国分级诊疗-智能辅助诊疗系统",
+      "author": "xx教授",
+      "date": "Dec 13, 2020",
+      "readingTime": "1 min read",
+      "image": "/post/%E5%84%BF%E7%A7%91%E4%B8%B4%E5%BA%8A%E6%99%BA%E8%83%BD%E8%BE%85%E5%8A%A9%E8%AF%8A%E7%96%97%E7%B3%BB%E7%BB%9F-%E5%85%A5%E9%80%89%E5%9B%BD%E5%AE%B6%E5%8D%AB%E5%81%A5%E5%A7%94%E7%BB%9F%E8%AE%A1%E4%BF%A1%E6%81%AF%E4%B8%AD%E5%BF%83%E9%A2%81%E5%8F%91%E7%9A%84%E5%8C%BB%E7%96%97%E5%81%A5%E5%BA%B7%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E8%90%BD%E5%9C%B0-30-%E6%9C%80%E4%BD%B3%E6%A1%88%E4%BE%8B2019/featured_hu9fa18647c645fd0869321b5a571dd66b_1708835_150x0_resize_lanczos_2.png"
+    }
+  ],
+  "people": {
+    "faculty": [
+      {"name": "xx教授", "link": "https://rongshanyu.wixsite.com/personal", "image": "/authors/admin/avatar%20_hubdf068b616c98850d052f2225223572b_150409_270x270_fill_lanczos_center_2.png"},
+      {"name": "王连生", "link": "https://informatics.xmu.edu.cn/info/1019/3195.htm", "image": "/authors/wangliansheng/avatar_hud7a0519aed57b00dff7f55f1a84b17f8_172233_270x270_fill_lanczos_center_2.png"},
+      {"name": "范晓亮", "link": "https://informatics.xmu.edu.cn/info/1021/3241.htm", "image": "/authors/fanxiaoliang/avatar_hu85d85216e70ef2743a9bdff0d0e5b0cf_83283_270x270_fill_lanczos_center_2.png"},
+      {"name": "许冰心", "link": "", "image": "/authors/xubingxin/avatar_huf69b41a18284a15f9ab7cf59032d8972_40061_270x270_fill_q75_lanczos_center.jpg"},
+      {"name": "邹 凤", "link": "", "image": "/authors/zoufeng/avatar_hub618b49ea267cce9a60000dd71f21368_56607_270x270_fill_q75_lanczos_center.jpg"}
+    ],
+    "phdStudents": [
+      {"name": "黄丽红", "description": "2018级博士，宏基因组", "image": "/authors/huanglihong/avatar%20_hu9af59200e48fa062931360688679df0d_99235_270x270_fill_q75_lanczos_center.jpg"},
+      {"name": "侯文太", "description": "2019级博士，计算机视觉、医学图像处理", "image": "/authors/houwentai/avatar%20_hud8afe1de238d8315e02c8fcb21dbb773_29915_270x270_fill_q75_lanczos_center.jpg"},
+      {"name": "刘亚琛", "description": "2019级博士，蛋白质质谱数据", "image": "/authors/liuyachen/avatar%20_hua9a64c6f03f214aa2f84ea121f78cf3c_1689092_270x270_fill_q75_lanczos_center.jpg"},
+      {"name": "王子薇", "description": "2019级博士，疾病基因，隐私保护，机器学习", "image": "/authors/wangzihui/avatar%20_hu80a6791b530f42268d943063378f47db_246345_270x270_fill_q75_lanczos_center.jpg"},
+      {"name": "肖旭", "description": "2019级博士，成像质谱流式数据分析", "image": "/authors/xiaoxu/avatar%20_huda79b1bbfb9306d760c3d1f87d9a3eae_1395343_270x270_fill_q75_lanczos_center.jpg"},
+      {"name": "高铭暄", "description": "2019级博士，高通量蛋白质组学，单细胞分析，医疗大数据分析", "image": "/authors/gaomingxuan/avatar%20_hu110cf6b81bdd228c23ad7f3ba5d9768b_40573_270x270_fill_lanczos_center_2.png"},
+      {"name": "林雅婷", "description": "2018级硕士，Deconvolution，空间转录组，深度学习", "image": "/authors/lingyating/avatar%20_hue65f38d3c72334713a3eb3ae8f2cbd2a_338668_270x270_fill_q75_lanczos_center.jpg"}
+    ],
+    "masterStudents": [
+      {"name": "乔影", "description": "2018级硕士，图像处理", "image": "/authors/qiaoying/avatar%20_hu1f9ef66a8e064afcbb5db4da22ed148c_44839_270x270_fill_lanczos_center_2.png"},
+      {"name": "谭立轩", "description": "2018级硕士，基于Spark的单细胞RNA测序数据处理", "image": "/authors/tanlixuan/avatar%20_hu7d0928630dd7e7d679cb5c04bf977044_268473_270x270_fill_q75_lanczos_center.jpg"},
+      {"name": "唐鑫威", "description": "2018级硕士，单细胞测序分析web平台", "image": "/authors/tangxinwei/avatar%20_hud3093dedf0159ef147ee35fac5a497fe_27311_270x270_fill_q75_lanczos_center.jpg"},
+      {"name": "付娜", "description": "2019级硕士，图像处理", "image": "/authors/funa/avatar%20_hu9486069e64b12c1006982ce9d1743462_156821_270x270_fill_q75_lanczos_center.jpg"},
+      {"name": "刘钰", "description": "2019级硕士，生物大数据", "image": "/authors/liuyu/avatar%20_hu66c7160efb8c03b4ee02113ffc3d473f_51578_270x270_fill_q75_lanczos_center.jpg"},
+      {"name": "李陈鑫", "description": "2019级硕士，蛋白质组数据分析平台", "image": "/authors/lichenxin/avatar%20_hu16f53d06694dafddcb788b39e3c5b4d7_1968562_270x270_fill_q75_lanczos_center.jpg"}
+    ],
+    "collaborators": [
+      {"name": "韩家淮", "link": "https://nidshm.xmu.edu.cn/info/1144/1107.htm", "image": "/authors/hanjiahuai/avatar_hu9d59994460455efc62bc75b485ecf9a8_80713_270x270_fill_q75_lanczos_center.jpg"},
+      {"name": "帅建伟", "link": "https://nidshm.xmu.edu.cn/info/1144/1110.htm", "image": "/authors/shuaijianwei/avatar_hu07ebdb42fb97db02cf315d265bf11e73_62843_270x270_fill_q75_lanczos_center.jpg"},
+      {"name": "朱建平", "link": "https://nidshm.xmu.edu.cn/info/1144/1111.htm", "image": "/authors/zhujianping/avatar_hu5a30c37f51be2d12afcd0666622510ff_177036_270x270_fill_q75_lanczos_center.jpg"},
+      {"name": "李奇渊", "link": "https://nidshm.xmu.edu.cn/info/1144/1108.htm", "image": "/authors/liqiyuan/avatar_huf0d7974bcfcfa8af381d5886a3c7ee02_13764_270x270_fill_q75_lanczos_center.jpg"}
+    ],
+    "alumni": [
+      {"name": "凌明毅", "description": "2017级硕士，单细胞转录组数据分析", "image": "/authors/linmingyi/avatar%20_hu14caa494d91d33c9f2bf68bb723ba277_349325_270x270_fill_q75_lanczos_center.jpg"},
+      {"name": "李豪钧", "description": "2017级硕士，Deconvolution，空间转录组，深度学习", "image": "/authors/lihaojun/avatar%20_huebb92c8f1225971ac18159eba1661987_62106_270x270_fill_q75_lanczos_center.jpg"}
+    ]
+  },
+  "accomplishments": [
+    {
+      "id": "%E5%8F%91%E8%A1%A8%E8%AE%BA%E6%96%87",
+      "title": "发表论文",
+      "description": "发表论文",
+      "author": "xx教授",
+      "date": "Dec 13, 2020"
+    },
+    {
+      "id": "%E7%A7%91%E7%A0%94%E6%88%90%E6%9E%9C",
+      "title": "科研成果",
+      "description": "科研成果",
+      "author": "xx教授",
+      "date": "Dec 13, 2020"
+    }
+  ]
+}

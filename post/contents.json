@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": "dream-challenge-tumor-deconvolution-国际比赛两项第一2020",
+      "title": "DREAM Challenge Tumor Deconvolution 国际比赛两项第一",
+      "description": "国际计算生物医学领域算法挑战赛",
+      "image":"/post/dream-challenge-tumor-deconvolution-国际比赛两项第一2020/featured.png"
+    },
+    {
+      "id": "fda举办食源性病原体检测挑战赛2017_1",
+      "title": "FDA举办食源性病原体检测挑战赛",
+      "description": "FDA食源性病原体检测挑战赛相关内容",
+      "image":"/post/fda举办食源性病原体检测挑战赛2017_1/featured.png"
+    },
+    {
+      "id": "儿科临床智能辅助诊疗系统-入选国家卫健委统计信息中心颁发的医疗健康人工智能落地-30-最佳案例2019",
+      "title": "儿科临床智能辅助诊疗系统-入选国家卫健委统计信息中心颁发的\"医疗健康人工智能落地 30 最佳案例",
+      "description": "厦门市儿科国分级诊疗-智能辅助诊疗系统",
+      "image":"/post/儿科临床智能辅助诊疗系统-入选国家卫健委统计信息中心颁发的医疗健康人工智能落地-30-最佳案例2019/featured.png"
+    }
+  ]
+}
