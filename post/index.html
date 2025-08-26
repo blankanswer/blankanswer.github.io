@@ -194,12 +194,9 @@
           return;
         }
         
-        // 清空加载提示
         articleListElement.innerHTML = '';
         
-        // 并行获取每个文章的详细信息并渲染
         const postPromises = data.posts.map(post => {
-          // 为每个文章创建流项目元素
           const streamItem = document.createElement('div');
           streamItem.className = 'media stream-item';
           
@@ -207,7 +204,6 @@
           const yearMatch = post.id.match(/\d{4}$/);
           const year = yearMatch ? yearMatch[0] : '2020';
           
-          // 构建文章HTML结构
           streamItem.innerHTML = `
             <div class="media-body">
               <div class="section-subheading article-title mb-0 mt-0">
@@ -238,7 +234,6 @@
           return Promise.resolve(streamItem);
         });
         
-        // 等待所有文章处理完成
         Promise.all(postPromises).then(() => {
           console.log('所有文章已加载完成');
         });

@@ -252,7 +252,6 @@
       document.addEventListener('DOMContentLoaded', function() {
         const projectsContainer = document.getElementById('projects-container');
         
-        // 先从整合的contents.json获取所有项目的基本信息
         fetch('/project/contents.json')
           .then(response => {
             if (!response.ok) {
@@ -279,20 +278,18 @@
                   return response.json();
                 })
                 .then(projectData => {
-                  // 根据目录名确定对象键
-                  let detailedData;
-                  switch(project.id) {
-                    case 'one':
-                      detailedData = projectData.projectOne;
+
+                  let detailedData = projectData;
+                  const potentialKeys = [
+                    `project${project.id.charAt(0).toUpperCase() + project.id.slice(1)}`,
+                    project.id
+                  ];
+                  
+                  for (const key of potentialKeys) {
+                    if (projectData.hasOwnProperty(key)) {
+                      detailedData = projectData[key];
                       break;
-                    case 'two':
-                      detailedData = projectData.projectTwo;
-                      break;
-                    case 'three':
-                      detailedData = projectData.projectThree;
-                      break;
-                    default:
-                      detailedData = projectData;
+                    }
                   }
                   
                   // 合并基本信息和详细信息
@@ -300,7 +297,6 @@
                 })
                 .catch(error => {
                   console.error(`Error loading project ${project.id}:`, error);
-                  // 如果获取详细数据失败，至少显示基本信息
                   return { ...project, dir: project.id };
                 });
             });
@@ -308,10 +304,9 @@
             // 等待所有数据获取完成
             Promise.all(fetchPromises)
               .then(detailedProjects => {
-                // 清空容器
+
                 projectsContainer.innerHTML = '';
-                
-                // 渲染项目列表
+            
                 detailedProjects.forEach(project => {
                   const projectElement = document.createElement('div');
                   projectElement.className = 'project-item';

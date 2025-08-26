@@ -191,40 +191,80 @@
       <div class="article-container">
 
         <div class="article-style">
-          <p><b>代表论文:</b></p>
+          
+          <p style="margin-top: 30px;"><b>发表论文:</b></p>
           <div id="professor-papers"></div>
           
-
           <script>
             document.addEventListener('DOMContentLoaded', function() {
-
-              fetch('content.json')
+              fetch('papers.json')
                 .then(response => {
                   if (!response.ok) {
                     throw new Error('Network response was not ok');
                   }
                   return response.json();
                 })
-                .then(data => {
-
-                  const professorPapersContainer = document.getElementById('professor-papers');
-                  data.papers.professor.forEach(paper => {
-                    const paperElement = document.createElement('p');
-                    let paperContent = `${paper.authors}, "${paper.title}", `;
-                    if (paper.volume) paperContent += `${paper.journal}, Vol ${paper.volume}, `;
-                    if (paper.issue) paperContent += `No. ${paper.issue}, `;
-                    if (paper.pages) paperContent += `pp. ${paper.pages}, `;
-                    if (paper.month) paperContent += `${paper.month} `;
-                    paperContent += `${paper.year}`;
-                    paperElement.innerHTML = paperContent;
-                    professorPapersContainer.appendChild(paperElement);
-                  });
-
+                .then(papersData => {
+                  const papersContainer = document.getElementById('professor-papers');
+                  
+                  if (papersData.papers && papersData.papers.length > 0) {
+                    papersData.papers.forEach(paper => {
+                      const paperItem = document.createElement('div');
+                      paperItem.style.marginBottom = '15px';
+                      paperItem.style.paddingBottom = '10px';
+                      paperItem.style.borderBottom = '1px solid #eee';
+                      
+                      // 创建论文标题
+                      const titleElement = document.createElement('div');
+                      titleElement.style.fontWeight = 'bold';
+                      titleElement.style.color = '#333';
+                      titleElement.textContent = paper.title;
+                      
+                      // 创建作者列表
+                      const authorsElement = document.createElement('div');
+                      authorsElement.style.fontSize = '0.9em';
+                      authorsElement.style.color = '#666';
+                      authorsElement.style.marginBottom = '5px';
+                      authorsElement.textContent = paper.authors;
+                      
+                      // 创建期刊和年份信息
+                      const metaElement = document.createElement('div');
+                      metaElement.style.fontSize = '0.8em';
+                      metaElement.style.color = '#666';
+                      
+                      let metaText = `${paper.journal}`;
+                      if (paper.year) metaText += `, ${paper.year}`;
+                      if (paper.volume) metaText += `, Vol ${paper.volume}`;
+                      if (paper.issue) metaText += `(No.${paper.issue})`;
+                      if (paper.pages) metaText += `, pp. ${paper.pages}`;
+                      
+                      metaElement.textContent = metaText;
+                      
+                      // 如果有DOI链接，则添加链接
+                      if (paper.doi) {
+                        const doiLink = document.createElement('a');
+                        doiLink.href = paper.doi;
+                        doiLink.target = '_blank';
+                        doiLink.style.color = '#1565c0';
+                        doiLink.style.marginLeft = '10px';
+                        doiLink.textContent = 'DOI链接';
+                        metaElement.appendChild(doiLink);
+                      }
+                      
+                      // 组装论文项
+                      paperItem.appendChild(titleElement);
+                      paperItem.appendChild(authorsElement);
+                      paperItem.appendChild(metaElement);
+                      
+                      papersContainer.appendChild(paperItem);
+                    });
+                  } else {
+                    papersContainer.innerHTML = '<p>暂无论文数据</p>';
+                  }
                 })
                 .catch(error => {
                   console.error('Error fetching paper data:', error);
                   document.getElementById('professor-papers').innerHTML = '<p>加载论文数据失败</p>';
-                  document.getElementById('student-papers').innerHTML = '<p>加载论文数据失败</p>';
                 });
             });
           </script>

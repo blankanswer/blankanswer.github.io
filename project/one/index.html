@@ -353,7 +353,7 @@
     <script src="/en/js/wowchemy.min.b61a8f62b6e5c0cd322c8158c5b5dfb6.js"></script>
 
 <script>
-// 动态加载项目数据
+
 fetch('./content.json')
   .then(response => {
     if (!response.ok) {
@@ -446,7 +446,6 @@ fetch('./content.json')
   })
   .catch(error => {
     console.error('There was a problem with the fetch operation:', error);
-    // 可以在这里添加错误处理逻辑，例如显示默认内容
   });
 </script>
 </body>
