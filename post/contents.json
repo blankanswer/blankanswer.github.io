@@ -1,22 +1,22 @@
 {
   "posts": [
     {
-      "id": "dream-challenge-tumor-deconvolution-国际比赛两项第一2020",
-      "title": "DREAM Challenge Tumor Deconvolution 国际比赛两项第一",
-      "description": "国际计算生物医学领域算法挑战赛",
-      "image":"/post/dream-challenge-tumor-deconvolution-国际比赛两项第一2020/featured.png"
+      "id": "cancellcap-robust-cancer-cell-capture",
+      "title": "CanCellCap: 基于多域学习的跨组织类型稳健癌细胞捕获方法",
+      "description": "该研究提出CanCellCap方法，通过多域学习框架整合多组织单细胞转录组数据，构建跨域癌细胞特征表示，实现不依赖特定组织的癌细胞通用识别，为癌症单细胞研究提供标准化工具。",
+      "image": "/post/cancellcap-robust-cancer-cell-capture/cancell_cap_headimg.png"
     },
     {
-      "id": "fda举办食源性病原体检测挑战赛2017_1",
-      "title": "FDA举办食源性病原体检测挑战赛",
-      "description": "FDA食源性病原体检测挑战赛相关内容",
-      "image":"/post/fda举办食源性病原体检测挑战赛2017_1/featured.png"
+      "id": "microdig-directed-microbiome-interaction",
+      "title": "MicroDIG：基于自监督学习的大规模微生物组纵向数据有向互作估计",
+      "description": "研究团队开发MicroDIG框架，融合自监督学习与GLV方程，实现大规模微生物组纵向数据的有向互作精准估计，解决传统方法在群落分析中的规模限制问题。",
+      "image": "/post/microdig-self-supervised-microbiome-interaction/microdig_headimg.png"
     },
     {
-      "id": "儿科临床智能辅助诊疗系统-入选国家卫健委统计信息中心颁发的医疗健康人工智能落地-30-最佳案例2019",
-      "title": "儿科临床智能辅助诊疗系统-入选国家卫健委统计信息中心颁发的\"医疗健康人工智能落地 30 最佳案例",
-      "description": "厦门市儿科国分级诊疗-智能辅助诊疗系统",
-      "image":"/post/儿科临床智能辅助诊疗系统-入选国家卫健委统计信息中心颁发的医疗健康人工智能落地-30-最佳案例2019/featured.png"
+      "id": "vitax-adaptive-virus-taxonomy",
+      "title": "ViTax: 基于基础模型与分类置信树的自适应层级病毒分类方法",
+      "description": "该研究提出ViTax框架，结合HyenaDNA长序列模型与分类置信树，解决病毒长基因组、高突变率及开放集识别难题，在RefSeq等数据集上实现高精度病毒分类。",
+      "image": "/post/vitax-adaptive-hierarchical-virus-taxonomy/vitax_headimg.png"  
     }
   ]
 }

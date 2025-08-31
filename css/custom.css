@@ -1,0 +1,26 @@
+
+.page-body,
+.universal-wrapper,
+.article-style,
+.content {
+  text-align: justify;
+  word-break: break-all;
+}
+
+/* 为段落元素添加两端对齐 */
+p {
+  text-align: justify;
+  word-break: break-all;
+  text-justify: inter-character;
+}
+
+/* 防止标题也被两端对齐 */
+h1, h2, h3, h4, h5, h6 {
+  text-align: left; /* 保持标题左对齐 */
+}
+
+/* 导航栏和页脚文本保持默认对齐 */
+.navbar,
+.site-footer {
+  text-align: left;
+}
