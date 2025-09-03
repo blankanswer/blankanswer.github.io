@@ -474,6 +474,7 @@ onMounted(() => {
   color: #4b8f8b;
   margin: 0 0 12px;
   font-weight: 500;
+  text-align: center;
 }
 
 .member-desc {
@@ -482,6 +483,7 @@ onMounted(() => {
   line-height: 1.6;
   margin-bottom: 0;
   flex: 1;
+  text-align: center;
 }
 
 /* 动画触发后的状态 */

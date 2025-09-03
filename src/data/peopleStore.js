@@ -17,6 +17,7 @@ import zhangwenhaoPhoto from '@/assets/team/zhangwenhao.jpg'
 import zhangyiyangPhoto from '@/assets/team/zhangyiyang.jpg'
 import baipeihaoPhoto from '@/assets/team/baipeihao.jpg'
 import defaultImg from '@/assets/team/defaultimg.png'
+import chenfufengPhoto from '@/assets/team/chenfufeng.jpg'
 
 const members = ref([
   // 教师团队
@@ -71,6 +72,13 @@ const members = ref([
     role: '2025级博士生',
     description: '研究方向：多域学习、深度学习。',
     imageUrl: baipeihaoPhoto,
+  },
+  {
+    category: '博士生',
+    name: '陈福沨',
+    role: '2025级博士生',
+    description: '研究方向：多域学习、深度学习。',
+    imageUrl: chenfufengPhoto,
   },
 
   // 硕士

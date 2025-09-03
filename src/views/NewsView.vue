@@ -1,8 +1,8 @@
 <template>
   <div class="news-view">
     <div class="page-header">
-      <h1>研究方向与研究方向</h1>
-      <p class="page-subtitle">探索我们的最新研究和学术动态</p>
+      <h1>研究方向</h1>
+      <p class="page-subtitle" style="text-align: center">探索我们的最新研究方向</p>
     </div>
 
     <!-- 研究方向列表 -->
