@@ -12,6 +12,10 @@ on:
 # 任务
 jobs:
   build-and-deploy:
+    # 新增：为工作流授予写入仓库内容的权限
+    permissions:
+      contents: write
+
     # 运行环境
     runs-on: ubuntu-latest
 
@@ -24,7 +28,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20' # 将版本从 '18' 升级到 '20'
+          node-version: '20'
 
       # 3. 安装项目依赖
       - name: Install dependencies
