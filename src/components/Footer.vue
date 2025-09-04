@@ -2,7 +2,7 @@
   <footer class="footer">
     <div class="footer-content">
       <p class="footer-lab-name">
-        厦门大学AI生物组学启智学实验室实验室 BioAI-Youth-Lab at Xiamen University)
+        厦门大学AI生物组学启智学实验室实验室 (BioAI-Youth-Lab at Xiamen University)
       </p>
       <p class="footer-address">地址：福建省厦门市厦门大学翔安校区航空航天学院418室 361102</p>
       <p class="footer-email">邮箱：wangying@xmu.edu.cn</p>
