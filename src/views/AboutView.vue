@@ -18,7 +18,7 @@
         <div class="text-container">
           <h2>实验室简介</h2>
           <p>
-            BioAl-Youth-Lab |
+            BioAI-Y(Ying's)o(Omics)u(United)th (thoughtful)-lab |
             AI生物组学启智学实验室致力于前沿人工智能算法与多学科领域的交叉融合研究。实验室以智能计算为核心，专注于解决生物医学、健康医疗及生物信息学中的复杂数据分析与建模挑战。
           </p>
           <p>
@@ -45,7 +45,7 @@
 
       <!-- 4. 科研成就部分，带滚动动画 -->
       <div class="achievements-section" v-scroll-fade-in="200">
-        <h2>科研成就</h2>
+        <h2>科研成果</h2>
 
         <!-- 科研项目 -->
         <div class="achievement-category">
@@ -124,9 +124,10 @@ import { onMounted, ref } from 'vue'
 import labLogo from '@/assets/logo.png'
 import professorPhoto from '@/assets/wangying.jpg'
 
-// 科研成就数据
+// 科研成果数据
 const achievements = ref({
   researchProjects: [
+    '先验知识与时序数据融合的微生物群落动态特性系统表征，国家自然科学基金委员会, 面上项目',
     '福州市科技项目，对外科技合作项目，肿瘤患者肠菌移植疗法中微生物动态相关性智能跟踪与评估',
     '横向，数字营销决策大模型关键技术',
     '厦门市科技局，厦门市大数据智能分析与决策重点实验室项目',

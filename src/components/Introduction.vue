@@ -48,7 +48,30 @@
           <h2>实验室简介</h2>
         </div>
         <p class="section-text">
-          BioAl-Youth-Lab | AI生物组学启智学实验室
+          <span class="lab-name-container">
+            <span class="bioai-prefix">BioAI-</span>
+            <span class="acronym-container">
+              <span class="acronym-letter" data-meaning="Ying's">
+                <span class="letter">Y</span>
+                <span class="meaning">Ying's</span>
+              </span>
+              <span class="acronym-letter" data-meaning="Omics">
+                <span class="letter">o</span>
+                <span class="meaning">Omics</span>
+              </span>
+              <span class="acronym-letter" data-meaning="United">
+                <span class="letter">u</span>
+                <span class="meaning">United</span>
+              </span>
+              <span class="acronym-letter" data-meaning="Thoughtful">
+                <span class="letter">th</span>
+                <span class="meaning">Thoughtful</span>
+              </span>
+            </span>
+            <span class="lab-suffix">-lab</span>
+            <span class="separator"> | </span>
+            <span class="chinese-name">AI生物组学启智学实验室</span>
+          </span>
           致力于前沿人工智能算法与多学科领域的交叉融合研究。实验室以智能计算为核心,专注于解决生物医学、健康医疗及生物信息学中的复杂数据分析与建模挑战。
         </p>
         <p class="section-text">
@@ -244,6 +267,175 @@ logo-image {
   color: #555;
   margin-bottom: 20px;
   text-align: justify;
+}
+
+/* 实验室名称容器 */
+.lab-name-container {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 15px;
+  display: block;
+}
+
+/* BioAI前缀 */
+.bioai-prefix {
+  color: #4b8f8b;
+  font-weight: 700;
+}
+
+/* 首字母缩略词容器 */
+.acronym-container {
+  display: inline-flex;
+  gap: 2px;
+  position: relative;
+}
+
+/* 首字母样式 */
+.acronym-letter {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: linear-gradient(135deg, #6dd5ed 0%, #2193b0 100%);
+  color: white;
+  font-weight: 700;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0 1px;
+}
+
+/* 字母悬停效果 */
+.acronym-letter:hover {
+  transform: translateY(-3px) scale(1.1);
+  box-shadow: 0 6px 15px rgba(33, 147, 176, 0.4);
+}
+
+/* 字母内部样式 */
+.letter {
+  position: relative;
+  z-index: 2;
+  font-size: 1.3rem;
+}
+
+/* 含义提示样式 */
+.meaning {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 9999; /* 提高z-index确保显示在最上层 */
+  margin-bottom: 8px;
+  font-weight: 500;
+  display: block; /* 确保元素可见 */
+}
+
+/* 含义提示箭头 */
+.meaning::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 5px;
+  border-style: solid;
+  border-color: #333 transparent transparent transparent;
+}
+
+/* 悬停时显示含义 */
+.acronym-letter:hover .meaning {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-5px);
+}
+
+/* Lab后缀 */
+.lab-suffix {
+  color: #333;
+  font-weight: 700;
+}
+
+/* 分隔符 */
+.separator {
+  margin: 0 5px;
+  color: #888;
+}
+
+/* 中文名样式 */
+.chinese-name {
+  color: #333;
+  font-weight: 600;
+  font-size: 1.15rem;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .lab-name-container {
+    font-size: 1.1rem;
+  }
+  
+  .acronym-letter {
+    width: 28px;
+    height: 28px;
+  }
+  
+  .letter {
+    font-size: 1.1rem;
+  }
+  
+  .chinese-name {
+    font-size: 1.05rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .lab-name-container {
+    font-size: 1rem;
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+  }
+  
+  .acronym-container {
+    justify-content: center;
+  }
+  
+  .acronym-letter {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .letter {
+    font-size: 1rem;
+  }
+  
+  .meaning {
+    font-size: 0.75rem;
+    padding: 4px 8px;
+  }
+  
+  .chinese-name {
+    font-size: 1rem;
+    display: block;
+  }
+  
+  .separator {
+    display: none;
+  }
 }
 
 /* 链接容器 */
