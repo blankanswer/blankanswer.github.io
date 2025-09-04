@@ -133,7 +133,7 @@ const members = ref([
   },
   {
     category: '硕士生',
-    name: '黄玮杰',
+    name: '黄圩杰',
     role: '2025级硕士生',
     description: '研究方向：人工智能、智能算法。',
     imageUrl: huangweijiePhoto,
