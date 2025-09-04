@@ -15,7 +15,7 @@ html {
 
 body {
   font-family:
-    -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Geist Font', 'Microsoft YaHei', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
     'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -23,6 +23,7 @@ body {
   background-color: #fff;
   font-size: 1rem;
   line-height: 1.6;
+  letter-spacing: 0.03em; /* 略微增大行内文字间距 */
 }
 
 /* Typography - Heading Styles */
@@ -31,6 +32,7 @@ h1 {
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 1rem;
+    letter-spacing: 0.1em; /* 略微增大行内文字间距 */
 }
 
 h2 {

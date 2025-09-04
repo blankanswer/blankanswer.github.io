@@ -68,7 +68,7 @@
                 <span class="meaning">Thoughtful</span>
               </span>
             </span>
-            <span class="lab-suffix">-lab</span>
+            <span class="lab-suffix">-Lab</span>
             <span class="separator"> | </span>
             <span class="chinese-name">AI生物组学启智学实验室</span>
           </span>
@@ -338,7 +338,9 @@ logo-image {
   white-space: nowrap;
   opacity: 0;
   pointer-events: none;
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
   z-index: 9999; /* 提高z-index确保显示在最上层 */
   margin-bottom: 8px;
   font-weight: 500;
@@ -387,16 +389,16 @@ logo-image {
   .lab-name-container {
     font-size: 1.1rem;
   }
-  
+
   .acronym-letter {
     width: 28px;
     height: 28px;
   }
-  
+
   .letter {
     font-size: 1.1rem;
   }
-  
+
   .chinese-name {
     font-size: 1.05rem;
   }
@@ -409,30 +411,30 @@ logo-image {
     text-align: center;
     gap: 8px;
   }
-  
+
   .acronym-container {
     justify-content: center;
   }
-  
+
   .acronym-letter {
     width: 25px;
     height: 25px;
   }
-  
+
   .letter {
     font-size: 1rem;
   }
-  
+
   .meaning {
     font-size: 0.75rem;
     padding: 4px 8px;
   }
-  
+
   .chinese-name {
     font-size: 1rem;
     display: block;
   }
-  
+
   .separator {
     display: none;
   }

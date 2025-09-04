@@ -18,7 +18,7 @@
         <div class="text-container">
           <h2>实验室简介</h2>
           <p>
-            BioAI-Y(Ying's)o(Omics)u(United)th (thoughtful)-lab |
+            BioAI-Y(Ying's)o(Omics)u(United)th (thoughtful)-Lab |
             AI生物组学启智学实验室致力于前沿人工智能算法与多学科领域的交叉融合研究。实验室以智能计算为核心，专注于解决生物医学、健康医疗及生物信息学中的复杂数据分析与建模挑战。
           </p>
           <p>
