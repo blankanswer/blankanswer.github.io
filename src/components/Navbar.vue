@@ -25,6 +25,11 @@
           <router-link to="/people" class="nav-links" @click="closeMobileMenu">People</router-link>
         </li>
         <li class="nav-item">
+          <router-link to="/activities" class="nav-links" @click="closeMobileMenu"
+            >Activities</router-link
+          >
+        </li>
+        <li class="nav-item">
           <router-link to="/publications" class="nav-links" @click="closeMobileMenu"
             >Publications</router-link
           >

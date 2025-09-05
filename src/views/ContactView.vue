@@ -2,7 +2,7 @@
   <div class="contact-page">
     <div class="page-header">
       <h1>加入我们</h1>
-      <p style="text-align: center">我们诚挚邀请对科研充满热情的您加入我们的团队</p>
+      <p style="text-align: center">Join Us</p>
     </div>
 
     <div class="container">
@@ -16,8 +16,12 @@
           <div class="recruitment-category">
             <h3>【招募对象】</h3>
             <ul>
-              <li>博士生/硕士生：欢迎计算机、数学等相关专业同学报考或申请推免。</li>
-              <li>科研本科生：面向本校对科研有浓厚兴趣的优秀本科生（大二、大三优先），提供完整的科研训练。</li>
+              <li>
+                博士生/硕士生：欢迎计算机、数学等相关专业同学（博士生每年1-2个名额）报考或申请推免。
+              </li>
+              <li>
+                科研本科生：面向本校对科研有浓厚兴趣的优秀本科生（大二、大三优先），提供完整的科研训练。
+              </li>
             </ul>
           </div>
           <div class="recruitment-category">
@@ -51,10 +55,10 @@
       <!-- 下部：地图 -->
       <div class="map-section">
         <h2 class="section-title">实验室位置</h2>
-        
+
         <div class="map-container">
           <!-- OpenFreeMap - 按照官方文档使用MapLibre GL JS集成 -->
-          <div id="openfreemap" style="width: 100%; height: 100%;"></div>
+          <div id="openfreemap" style="width: 100%; height: 100%"></div>
         </div>
       </div>
     </div>
@@ -73,38 +77,42 @@ onMounted(() => {
   link.href = 'https://unpkg.com/maplibre-gl/dist/maplibre-gl.css'
   link.rel = 'stylesheet'
   document.head.appendChild(link)
-  
+
   const script = document.createElement('script')
   script.src = 'https://unpkg.com/maplibre-gl/dist/maplibre-gl.js'
   script.onload = async () => {
     await nextTick() // 等待DOM更新完成
-    
+
     // 等待MapLibre GL JS加载完成后初始化地图
     const maplibregl = window.maplibregl
-    
+
     // 初始化地图 - 使用Positron样式
     map = new maplibregl.Map({
       style: `https://tiles.openfreemap.org/styles/liberty`,
       center: [118.30585, 24.61151], // 实验室经纬度坐标
       zoom: 17, // 设置合适的缩放级别
       container: 'openfreemap',
-      attributionControl: true
+      attributionControl: true,
     })
-    
+
     // 添加导航控制（缩放按钮）
     map.addControl(new maplibregl.NavigationControl(), 'top-right')
-    
+
     // 在地图上添加标记点（实验室位置）
     new maplibregl.Marker()
       .setLngLat([118.30585, 24.61151])
-      .setPopup(new maplibregl.Popup().setHTML('<h3>厦门大学翔安校区航空航天学院</h3><p>福建省厦门市翔安区翔安南路4221号</p>'))
+      .setPopup(
+        new maplibregl.Popup().setHTML(
+          '<h3>厦门大学翔安校区航空航天学院</h3><p>福建省厦门市翔安区翔安南路4221号</p>',
+        ),
+      )
       .addTo(map)
-    
+
     // 地图加载完成后的回调
     map.on('load', () => {
       console.log('OpenFreeMap地图加载完成')
     })
-    
+
     // 添加样式切换事件监听
     setupStyleSwitcher()
   }
@@ -286,11 +294,11 @@ onUnmounted(() => {
     align-items: center;
     gap: 8px;
   }
-  
+
   .map-style-selector span {
     margin-bottom: 5px;
   }
-  
+
   .style-btn {
     font-size: 0.8rem;
     padding: 6px 12px;

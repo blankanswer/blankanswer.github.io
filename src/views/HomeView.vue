@@ -17,6 +17,11 @@
     <section class="publications-section-wrapper">
       <LatestPublications />
     </section>
+
+    <!-- 最新活动组件 -->
+    <section class="activities-section-wrapper">
+      <LatestActivities />
+    </section>
   </div>
 </template>
 
@@ -26,6 +31,7 @@ import HeroSlider from '@/components/HeroSlider.vue'
 import Introduction from '@/components/Introduction.vue'
 import LatestNews from '@/components/LatestNews.vue'
 import LatestPublications from '@/components/LatestPublications.vue'
+import LatestActivities from '@/components/LatestActivities.vue'
 
 // 页面加载时执行的逻辑
 onMounted(() => {
@@ -76,6 +82,12 @@ onMounted(() => {
   padding: 30px 0;
 }
 
+/* 最新活动部分包装器 */
+.activities-section-wrapper {
+  background-color: white;
+  padding: 30px 0;
+}
+
 /* 响应式设计 */
 @media (max-width: 992px) {
   .intro-section-wrapper {
@@ -100,6 +112,10 @@ onMounted(() => {
   }
 
   .publications-section-wrapper {
+    padding: 20px 0;
+  }
+
+  .activities-section-wrapper {
     padding: 20px 0;
   }
 }

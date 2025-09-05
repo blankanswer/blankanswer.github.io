@@ -68,7 +68,7 @@
                 <span class="meaning">Thoughtful</span>
               </span>
             </span>
-            <span class="lab-suffix">-Lab</span>
+            <span class="bioai-prefix">-Lab</span>
             <span class="separator"> | </span>
             <span class="chinese-name">AI生物组学启智学实验室</span>
           </span>

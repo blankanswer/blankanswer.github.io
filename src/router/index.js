@@ -7,6 +7,8 @@ import PeopleView from '../views/PeopleView.vue'
 import PublicationsView from '../views/PublicationsView.vue'
 import PublicationsDetail from '../views/PublicationsDetail.vue'
 import ContactView from '../views/ContactView.vue'
+import ActivitiesView from '../views/ActivitiesView.vue'
+import ActivitiesDetail from '../views/ActivitiesDetail.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -53,6 +55,16 @@ const router = createRouter({
       path: '/contact',
       name: 'contact',
       component: ContactView,
+    },
+    {
+      path: '/activities',
+      name: 'activities',
+      component: ActivitiesView,
+    },
+    {
+      path: '/activities/:id',
+      name: 'activities-detail',
+      component: ActivitiesDetail,
     }
   ],
 })

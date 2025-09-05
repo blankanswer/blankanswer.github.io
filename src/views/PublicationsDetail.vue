@@ -31,14 +31,12 @@
           <button @click="showCiteModal" class="pub-link">引用</button>
         </div>
 
-        <div class="pub-abstract">
-          <h3>摘要</h3>
-          <p v-if="publication.abstract">{{ publication.abstract }}</p>
-          <p v-else class="no-abstract">摘要信息暂未提供</p>
-        </div>
-
         <!-- 详细内容区域 - 根据论文ID显示特定内容 -->
         <div v-if="hasDetailedContent" class="pub-details">
+          <!-- 显示对应的论文图片 -->
+          <div v-if="paperImage" class="paper-image-container">
+            <img :src="paperImage" alt="论文相关图片" class="paper-image">
+          </div>
           <div class="detail-section" v-html="detailedContent"></div>
         </div>
       </div>
@@ -282,6 +280,20 @@ const detailedContent = computed(() => {
       return ''
   }
 })
+
+// 计算属性：获取对应的论文图片
+const paperImage = computed(() => {
+  if (!publication.value) return ''
+  
+  // 根据论文ID返回对应的图片路径
+  const imageMap = {
+    'paper1': '/src/assets/paper/cancell_cap_headimg.png',
+    'paper2': '/src/assets/paper/microdig_headimg.png',
+    'paper3': '/src/assets/paper/vitax_headimg.png'
+  }
+  
+  return imageMap[publication.value.id] || ''
+})
 </script>
 
 <style scoped>
@@ -464,6 +476,25 @@ const detailedContent = computed(() => {
   margin-top: 30px;
   padding-top: 30px;
   border-top: 1px solid #eee;
+}
+
+/* 论文图片容器样式 */
+.paper-image-container {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.paper-image {
+  max-width: 100%;
+  max-height: 400px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.paper-image:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .detail-section h3 {
