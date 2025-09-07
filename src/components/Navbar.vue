@@ -17,8 +17,8 @@
           <router-link to="/about" class="nav-links" @click="closeMobileMenu">About</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/news" class="nav-links" @click="closeMobileMenu"
-            >Research Direction</router-link
+          <router-link to="/publications" class="nav-links" @click="closeMobileMenu"
+            >Publications</router-link
           >
         </li>
         <li class="nav-item">
@@ -26,17 +26,13 @@
         </li>
         <li class="nav-item">
           <router-link to="/activities" class="nav-links" @click="closeMobileMenu"
-            >Activities</router-link
+            >News</router-link
           >
         </li>
-        <li class="nav-item">
-          <router-link to="/publications" class="nav-links" @click="closeMobileMenu"
-            >Publications</router-link
-          >
-        </li>
+
         <li class="nav-item">
           <router-link to="/contact" class="nav-links" @click="closeMobileMenu"
-            >Contact</router-link
+            >Join Us</router-link
           >
         </li>
       </ul>

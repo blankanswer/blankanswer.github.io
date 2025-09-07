@@ -18,11 +18,39 @@
         <div class="text-container">
           <h2>实验室简介</h2>
           <p>
-            BioAI-Y(Ying's)o(Omics)u(United)th (thoughtful)-Lab |
-            AI生物组学启智学实验室致力于前沿人工智能算法与多学科领域的交叉融合研究。实验室以智能计算为核心，专注于解决生物医学、健康医疗及生物信息学中的复杂数据分析与建模挑战。
+            <span class="lab-name-container">
+              <span class="bioai-prefix">BioAI-</span>
+              <span class="acronym-container">
+                <span class="acronym-letter" data-meaning="Ying's">
+                  <span class="letter">Y</span>
+                  <span class="meaning">Ying's</span>
+                </span>
+                <span class="acronym-letter" data-meaning="Omics">
+                  <span class="letter">o</span>
+                  <span class="meaning">Omics</span>
+                </span>
+                <span class="acronym-letter" data-meaning="United">
+                  <span class="letter">u</span>
+                  <span class="meaning">United</span>
+                </span>
+                <span class="acronym-letter" data-meaning="Thoughtful">
+                  <span class="letter">th</span>
+                  <span class="meaning">Thoughtful</span>
+                </span>
+              </span>
+              <span class="bioai-prefix">-Lab</span>
+              <span class="separator"> | </span>
+              <span class="chinese-name">AI生物组学启智学实验室</span>
+            </span>
           </p>
           <p>
-            我们力求通过算法创新推动跨学科研究的突破，开发具备高泛化能力的通用分析工具与智能系统，旨在将数据价值转化为精准洞察，服务于科学研究与社会发展。
+            <strong>BioAI-Youth-Lab</strong>
+            实验室中的Youth是Ying's Omics United
+            Thoughtful的缩写，也体现了实验室的一个主旨思想，希望启发智慧，培养全面、会思考、懂合作的青年人才；同时也体现实验室目前的研究方向，致力于前沿人工智能算法探索生命科学与人类健康，致力于AI与Biology
+            的交叉融合研究。实验室以智能计算为核心,专注于解决计算生物学与生物信息学中的复杂数据分析与建模挑战。因此实验室的中文全称为"AI生物组学启智学实验室"。
+          </p>
+          <p>
+            实验室拥有一支充满活力的师资与学生队伍,实验室氛围极其融洽，同学们友爱、互助、传帮带，王颖教授以及十余名在读博士和硕士研究生,形成了一个富有创造力与协作精神的学术共同体。
           </p>
         </div>
       </div>
@@ -31,11 +59,17 @@
       <div class="about-section professor-intro" v-scroll-fade-in="100">
         <div class="text-container">
           <h2>负责人简介</h2>
+          <p>王颖，厦门大学自动化系教授、博导</p>
           <p>
-            王颖教授，厦门大学自动化系教授、博士生导师，现任厦门市大数据智能决策与分析重点实验室主任。
+            厦门大学"最受学生欢迎的十位教师"，现任厦门市大数据智能决策与分析重点实验室主任，中国人工智能学会生物信息学与人工生命专业委员会副主任委员，中国计算机学会生物信息学专业委员会委员，中国自动化学智慧健康与生物信息专委会委员。南加州大学计算生物中心、加州大学欧文分校统计系访问学者。
           </p>
           <p>
-            她于1995年进入中国科学技术大学自动化系学习，并于2002年获得模式识别与智能系统硕士学位。同年，她加入厦门大学自动化系，并于2007年获得控制理论与控制工程博士学位。
+            从事生物信息大数据与智能算法研究，在相关领域发表论文40余篇，包括Genome Biology,
+            Bioinformatics、Briefings in Bioinformatics, Aquaculture、BMC
+            Genomics等，发表的工作均提供专业的软件平台或者开源代码供同行使用，主持4项国家自然科学基金，骨干参与国家重点研发计划。
+          </p>
+          <p>
+            获福建省高等教育教学成果一等奖2项，国家一流课程负责人，中国自动化学会高等教育教学成果二等奖，全国高校计算机课件评比一等奖，厦门大学青年教师授课技能比赛特等奖；主持教育部教育教学改革面上项目、教育部产学研合作项目、福建省教改项目、福建省高校"精品共享课程"、福建省一流课程等。
           </p>
         </div>
         <div class="image-container">
@@ -227,7 +261,7 @@ const vScrollFadeIn = {
 
 /* --- Main Content --- */
 .main-content {
-  max-width: 1100px;
+  max-width: 1200px;
   margin: -60px auto 60px; /* 让内容区向上移动，覆盖部分hero区域 */
   padding: 0 20px;
   position: relative;
@@ -268,12 +302,14 @@ const vScrollFadeIn = {
 .image-container {
   text-align: center;
 }
+/* 图片样式 */
 .section-image {
   max-width: 100%;
   height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
 }
 .logo-image {
-  max-width: 180px;
   border-radius: 4px;
 }
 .professor-image {
@@ -378,6 +414,177 @@ const vScrollFadeIn = {
   color: #495057;
   flex: 1;
   font-size: 1rem;
+}
+
+/* 实验室名称容器 */
+.lab-name-container {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 15px;
+  display: block;
+}
+
+/* BioAI前缀 */
+.bioai-prefix {
+  color: #4b8f8b;
+  font-weight: 700;
+}
+
+/* 首字母缩略词容器 */
+.acronym-container {
+  display: inline-flex;
+  gap: 2px;
+  position: relative;
+}
+
+/* 首字母样式 */
+.acronym-letter {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: linear-gradient(135deg, #6dd5ed 0%, #2193b0 100%);
+  color: white;
+  font-weight: 700;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0 1px;
+}
+
+/* 字母悬停效果 */
+.acronym-letter:hover {
+  transform: translateY(-3px) scale(1.1);
+  box-shadow: 0 6px 15px rgba(33, 147, 176, 0.4);
+}
+
+/* 字母内部样式 */
+.letter {
+  position: relative;
+  z-index: 2;
+  font-size: 1.3rem;
+}
+
+/* 含义提示样式 */
+.meaning {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
+  z-index: 9999; /* 提高z-index确保显示在最上层 */
+  margin-bottom: 8px;
+  font-weight: 500;
+  display: block; /* 确保元素可见 */
+}
+
+/* 含义提示箭头 */
+.meaning::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 5px;
+  border-style: solid;
+  border-color: #333 transparent transparent transparent;
+}
+
+/* 悬停时显示含义 */
+.acronym-letter:hover .meaning {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-5px);
+}
+
+/* Lab后缀 */
+.lab-suffix {
+  color: #333;
+  font-weight: 700;
+}
+
+/* 分隔符 */
+.separator {
+  margin: 0 5px;
+  color: #888;
+}
+
+/* 中文名样式 */
+.chinese-name {
+  color: #333;
+  font-weight: 600;
+  font-size: 1.15rem;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .lab-name-container {
+    font-size: 1.1rem;
+  }
+
+  .acronym-letter {
+    width: 28px;
+    height: 28px;
+  }
+
+  .letter {
+    font-size: 1.1rem;
+  }
+
+  .chinese-name {
+    font-size: 1.05rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .lab-name-container {
+    font-size: 1rem;
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+  }
+
+  .acronym-container {
+    justify-content: center;
+  }
+
+  .acronym-letter {
+    width: 25px;
+    height: 25px;
+  }
+
+  .letter {
+    font-size: 1rem;
+  }
+
+  .meaning {
+    font-size: 0.75rem;
+    padding: 4px 8px;
+  }
+
+  .chinese-name {
+    font-size: 1rem;
+    display: block;
+  }
+
+  .separator {
+    display: none;
+  }
 }
 
 /* --- Responsive Design --- */

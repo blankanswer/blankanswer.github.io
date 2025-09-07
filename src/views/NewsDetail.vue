@@ -17,7 +17,7 @@
 import { ref, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 // 从数据文件导入研究方向数据
-import { newsItems } from '@/data/newsData.js'
+import { newsItems } from '@/data/researchData.js'
 
 const route = useRoute()
 const newsItem = ref(null)

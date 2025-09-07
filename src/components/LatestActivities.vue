@@ -41,7 +41,7 @@
             />
           </svg>
         </div>
-        <h2>最新活动</h2>
+        <h2>最新动态</h2>
       </div>
       <a href="/activities" class="view-all-link">查看全部 <span class="arrow-right">→</span></a>
     </div>
@@ -66,25 +66,45 @@
             <div class="activity-text-content">
               <h3 class="activity-title">{{ activity.title }}</h3>
               <p class="activity-preview">{{ getContentPreview(activity.content) }}</p>
-              
+
               <!-- 显示图片数量提示 -->
               <div v-if="activity.images.length > 1" class="image-count">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M21 15V5C21 3.89543 20.1046 3 19 3H5C3.89543 3 3 3.89543 3 5V15C3 16.1046 3.89543 17 5 17H21V15Z" stroke="#4b8f8b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                  <path d="M16 17H8" stroke="#4b8f8b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                  <path d="M12 17C13.1046 17 14 16.1046 14 15C14 13.8954 13.1046 13 12 13C10.8954 13 10 13.8954 10 15C10 16.1046 10.8954 17 12 17Z" stroke="#4b8f8b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M21 15V5C21 3.89543 20.1046 3 19 3H5C3.89543 3 3 3.89543 3 5V15C3 16.1046 3.89543 17 5 17H21V15Z"
+                    stroke="#4b8f8b"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M16 17H8"
+                    stroke="#4b8f8b"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M12 17C13.1046 17 14 16.1046 14 15C14 13.8954 13.1046 13 12 13C10.8954 13 10 13.8954 10 15C10 16.1046 10.8954 17 12 17Z"
+                    stroke="#4b8f8b"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
                 </svg>
                 {{ activity.images.length }}张图片
               </div>
             </div>
-            
+
             <!-- 右侧图片区域，只显示第一张图片 -->
             <div v-if="activity.images.length > 0" class="activity-image-container">
-              <img 
-                :src="activity.images[0]" 
-                :alt="activity.title"
-                class="activity-image"
-              />
+              <img :src="activity.images[0]" :alt="activity.title" class="activity-image" />
             </div>
           </div>
         </div>
@@ -104,12 +124,14 @@ const { activities } = useActivityStore()
 // 计算属性，获取最新的三个活动
 const latestActivities = computed(() => {
   // 先按日期排序（降序），然后取前三个
-  return [...activities.value].sort((a, b) => {
-    // 将日期格式转换为可以比较的格式
-    const dateA = new Date(a.date.replace(/\./g, '-'))
-    const dateB = new Date(b.date.replace(/\./g, '-'))
-    return dateB - dateA
-  }).slice(0, 3)
+  return [...activities.value]
+    .sort((a, b) => {
+      // 将日期格式转换为可以比较的格式
+      const dateA = new Date(a.date.replace(/\./g, '-'))
+      const dateB = new Date(b.date.replace(/\./g, '-'))
+      return dateB - dateA
+    })
+    .slice(0, 3)
 })
 
 // 获取内容预览
@@ -151,7 +173,7 @@ const vScrollFadeIn = {
 </script>
 
 <style scoped>
-/* 最新活动部分容器 */
+/* 最新动态部分容器 */
 .activities-section {
   max-width: 1200px;
   margin: 0 auto;

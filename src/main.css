@@ -87,7 +87,6 @@ p {
   line-height: 1.6;
   margin-bottom: 1rem;
   text-align: justify;
-  word-break: break-all;
 }
 
 /* 恢复列表样式并添加两端对齐设置 */

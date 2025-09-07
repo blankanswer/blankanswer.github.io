@@ -65,7 +65,7 @@ const router = createRouter({
       path: '/activities/:id',
       name: 'activities-detail',
       component: ActivitiesDetail,
-    }
+    },
   ],
 })
 

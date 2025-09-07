@@ -14,6 +14,7 @@ import activityImg5_4 from '@/assets/activity/24毕业 4.jpg'
 import activityImg6_1 from '@/assets/activity/海门岛团建 1.jpg'
 import activityImg6_2 from '@/assets/activity/海门岛团建 2.jpg'
 
+
 // 将activity.txt中的数据转换为结构化数据
 export const useActivityStore = () => {
   const activities = ref([

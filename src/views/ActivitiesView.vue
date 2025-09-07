@@ -1,8 +1,8 @@
 <template>
   <div class="activities-page" id="activities">
     <div class="page-header">
-      <h1>实验室活动</h1>
-      <p style="text-align: center">Lab Activities</p>
+      <h1>实验室动态</h1>
+      <p style="text-align: center">Lab News</p>
     </div>
     <div class="container">
       <div class="activities-list">
@@ -13,31 +13,51 @@
             <div class="activity-text-content">
               <h3 class="activity-title">{{ activity.title }}</h3>
               <p class="activity-preview">{{ getContentPreview(activity.content) }}</p>
-              
+
               <!-- 显示图片数量提示 -->
               <div v-if="activity.images.length > 1" class="image-count">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M21 15V5C21 3.89543 20.1046 3 19 3H5C3.89543 3 3 3.89543 3 5V15C3 16.1046 3.89543 17 5 17H21V15Z" stroke="#4b8f8b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                  <path d="M16 17H8" stroke="#4b8f8b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                  <path d="M12 17C13.1046 17 14 16.1046 14 15C14 13.8954 13.1046 13 12 13C10.8954 13 10 13.8954 10 15C10 16.1046 10.8954 17 12 17Z" stroke="#4b8f8b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M21 15V5C21 3.89543 20.1046 3 19 3H5C3.89543 3 3 3.89543 3 5V15C3 16.1046 3.89543 17 5 17H21V15Z"
+                    stroke="#4b8f8b"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M16 17H8"
+                    stroke="#4b8f8b"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M12 17C13.1046 17 14 16.1046 14 15C14 13.8954 13.1046 13 12 13C10.8954 13 10 13.8954 10 15C10 16.1046 10.8954 17 12 17Z"
+                    stroke="#4b8f8b"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
                 </svg>
                 {{ activity.images.length }}张图片
               </div>
-              
+
               <div class="activity-actions">
                 <router-link :to="`/activities/${activity.id}`" class="view-detail-button"
                   >查看详情</router-link
                 >
               </div>
             </div>
-            
+
             <!-- 右侧图片区域，只显示第一张图片 -->
             <div v-if="activity.images.length > 0" class="activity-image-container">
-              <img 
-                :src="activity.images[0]" 
-                :alt="activity.title"
-                class="activity-image"
-              />
+              <img :src="activity.images[0]" :alt="activity.title" class="activity-image" />
             </div>
           </div>
         </div>
@@ -285,13 +305,13 @@ const getContentPreview = (content) => {
   .activity-title {
     font-size: 1.3rem;
   }
-  
+
   /* 调整左右布局为上下布局 */
   .activity-content-wrapper {
     flex-direction: column;
     gap: 15px;
   }
-  
+
   /* 调整图片容器宽度为100% */
   .activity-image-container {
     width: 100%;

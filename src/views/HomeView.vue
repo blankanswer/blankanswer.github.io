@@ -8,9 +8,9 @@
       <Introduction />
     </section>
 
-    <!-- 研究方向/研究方向组件 -->
+    <!-- 研究方向组件 -->
     <section class="news-section-wrapper" id="news">
-      <LatestNews />
+      <Research />
     </section>
 
     <!-- 最新论文组件 -->
@@ -18,7 +18,7 @@
       <LatestPublications />
     </section>
 
-    <!-- 最新活动组件 -->
+    <!-- 最新动态组件 -->
     <section class="activities-section-wrapper">
       <LatestActivities />
     </section>
@@ -29,7 +29,7 @@
 import { onMounted } from 'vue'
 import HeroSlider from '@/components/HeroSlider.vue'
 import Introduction from '@/components/Introduction.vue'
-import LatestNews from '@/components/LatestNews.vue'
+import Research from '@/components/Research.vue'
 import LatestPublications from '@/components/LatestPublications.vue'
 import LatestActivities from '@/components/LatestActivities.vue'
 
@@ -82,7 +82,7 @@ onMounted(() => {
   padding: 30px 0;
 }
 
-/* 最新活动部分包装器 */
+/* 最新动态部分包装器 */
 .activities-section-wrapper {
   background-color: white;
   padding: 30px 0;

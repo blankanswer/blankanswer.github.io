@@ -32,7 +32,7 @@
 <script setup>
 import { ref } from 'vue'
 import { RouterLink } from 'vue-router'
-import { newsItems } from '@/data/newsData.js'
+import { newsItems } from '@/data/researchData.js'
 
 // 自定义一个 Vue 指令来实现滚动触发动画
 const vScrollFadeIn = {
