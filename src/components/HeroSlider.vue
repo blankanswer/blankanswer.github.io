@@ -20,7 +20,7 @@ const isSmallScreen = ref(window.innerWidth < 768)
 
 // Hero内容
 const title = '欢迎来到BioAl-Youth-Lab实验室'
-const content = 'AI生物组学启智学实验室致力于前沿人工智能算法对生命科学与人类健康的探索'
+const content = 'AI生物组学启智实验室致力于前沿人工智能算法对生命科学与人类健康的探索'
 
 // 监听窗口大小变化
 const handleResize = () => {

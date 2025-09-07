@@ -100,7 +100,7 @@ const filteredActivities = computed(() => {
 // 获取内容预览
 const getContentPreview = (content) => {
   // 移除换行符，取前150个字符
-  return content.replace(/\n/g, ' ').substring(0, 150) + '...'
+  return content.replace(/\n/g, ' ').substring(0, 100) + '...'
 }
 </script>
 

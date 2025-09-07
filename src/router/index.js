@@ -66,6 +66,12 @@ const router = createRouter({
       name: 'activities-detail',
       component: ActivitiesDetail,
     },
+    // 404页面路由
+    {
+      path: '/:pathMatch(.*)*',
+      name: 'not-found',
+      component: () => import('../views/NotFoundView.vue')
+    },
   ],
 })
 
