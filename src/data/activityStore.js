@@ -5,7 +5,7 @@ import activityImg1 from '@/assets/activity/1.png'
 import activityImg2_1 from '@/assets/activity/2025欢送 1.jpg'
 import activityImg2_2 from '@/assets/activity/2025欢送 2.jpg'
 import activityImg2_3 from '@/assets/activity/2025欢送 3.jpg'
-import activityImg3 from '@/assets/activity/任豪师兄回校.jpg'
+import activityImg3 from '@/assets/activity/仁豪师兄回校.jpg'
 import activityImg4 from '@/assets/activity/24教师节.jpg'
 import activityImg5_1 from '@/assets/activity/24毕业 1.jpg'
 import activityImg5_2 from '@/assets/activity/24毕业 2.jpg'
@@ -35,8 +35,8 @@ export const useActivityStore = () => {
     {
       id: 'activity3',
       date: '2024.11.15',
-      title: '任豪师兄回校看望老师',
-      content: '2024年11月15日，实验室2023届毕业生任豪师兄返校看望恩师及师弟师妹。当天下午，任豪与师生聚餐交流，分享工作体验与职场心得，介绍行业发展趋势，解答职业规划、求职技巧等问题，鼓励学弟学妹珍惜时光提升能力，为在校生与毕业生搭建沟通桥梁。',
+      title: '仁豪师兄回校看望老师',
+      content: '2024年11月15日，实验室2023届毕业生仁豪师兄返校看望恩师及师弟师妹。当天下午，仁豪与师生聚餐交流，分享工作体验与职场心得，介绍行业发展趋势，解答职业规划、求职技巧等问题，鼓励学弟学妹珍惜时光提升能力，为在校生与毕业生搭建沟通桥梁。',
       images: [activityImg3]
     },
     {
