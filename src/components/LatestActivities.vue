@@ -43,7 +43,8 @@
         </div>
         <h2>最新动态</h2>
       </div>
-      <a href="/activities" class="view-all-link">查看全部 <span class="arrow-right">→</span></a>
+      <!-- <a href="/#/activities" class="view-all-link">查看全部 <span class="arrow-right">→</span></a> -->
+      <router-link class="view-all-link" to="/activities">查看全部</router-link>
     </div>
 
     <!-- 活动卡片列表，带滚动动画 -->

@@ -43,7 +43,10 @@
         </div>
         <h2>最新论文</h2>
       </div>
-      <a href="/publications" class="view-all-link">查看全部 <span class="arrow-right">→</span></a>
+      <!-- <a href="/#/publications" class="view-all-link"
+        >查看全部 <span class="arrow-right">→</span></a
+      > -->
+      <router-link class="view-all-link" to="/publications">查看全部</router-link>
     </div>
 
     <!-- 论文卡片列表，带滚动动画 -->

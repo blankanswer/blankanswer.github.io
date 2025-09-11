@@ -126,9 +126,14 @@
           获福建省高等教育教学成果一等奖2项，国家一流课程负责人，中国自动化学会高等教育教学成果二等奖，全国高校计算机课件评比一等奖，厦门大学青年教师授课技能比赛特等奖；主持教育部教育教学改革面上项目、教育部产学研合作项目、福建省教改项目、福建省高校"精品共享课程"、福建省一流课程等。
         </p>
         <div class="profile-links">
-          <a href="#news" class="profile-link">研究方向</a>
+          <!-- <a href="#news" class="profile-link">研究方向</a>
           <a href="/publications" class="profile-link">发表论文</a>
-          <a href="/contact" class="profile-link">联系我们</a>
+          
+          <a href="/contact" class="profile-link">联系我们</a> -->
+          <!-- 使用vue-router -->
+          <router-link class="profile-link" to="/news">研究方向</router-link>
+          <router-link class="profile-link" to="/publications">发表论文</router-link>
+          <router-link class="profile-link" to="/contact">联系我们</router-link>
         </div>
       </div>
       <div class="image-container">
@@ -139,7 +144,7 @@
 </template>
 
 <script setup>
-import { onMounted } from 'vue'
+import { onMounted, VueElement } from 'vue'
 import labLogo from '@/assets/logo.png'
 import professorPhoto from '@/assets/wangying.jpg'
 

@@ -17,9 +17,6 @@
           <div class="news-date">{{ news.date }}</div>
           <h2 class="news-title">{{ news.title }}</h2>
           <p class="news-summary">{{ news.summary }}</p>
-          <router-link :to="'/news/' + news.slug" class="read-more-link">
-            阅读更多 &rarr;
-          </router-link>
         </div>
         <div class="news-item-image">
           <img :src="news.image" :alt="news.title" class="news-image" />

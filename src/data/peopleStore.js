@@ -16,14 +16,16 @@ import yuyuanyuanPhoto from '@/assets/team/yuyuanyuan.jpg'
 import zhangwenhaoPhoto from '@/assets/team/zhangwenhao.jpg'
 import zhangyiyangPhoto from '@/assets/team/zhangyiyang.jpg'
 import baipeihaoPhoto from '@/assets/team/baipeihao.jpg'
-import defaultImg from '@/assets/team/defaultimg.png'
 import chenfufengPhoto from '@/assets/team/chenfufeng.jpg'
+import longyongyuPhoto from '@/assets/team/longyongyu.jpg'
+import heyushuangPhoto from '@/assets/team/heyushuang.jpg'
+import xiaozixuanPhoto from '@/assets/team/xiaozixuan.jpg'
 
 const members = ref([
   // 教师团队
   {
     category: '教师团队',
-    name: '王颖教授',
+    name: '王颖',
     role: '博士生导师',
     description: '厦门大学自动化系教授，现任厦门市大数据智能决策与分析重点实验室主任。',
     imageUrl: wangYingPhoto,
@@ -42,7 +44,7 @@ const members = ref([
     category: '博士生',
     name: '周峰',
     role: '2022级博士生',
-    description: '研究方向：机器学习、医学图像处理。',
+    description: '研究方向：自然语言处理、健康大数据分析。',
     imageUrl: zhouFengPhoto,
   },
   {
@@ -54,7 +56,7 @@ const members = ref([
   },
   {
     category: '博士生',
-    name: '邓婷之',
+    name: '邓渟之',
     role: '2023级博士生',
     description: '研究方向：智能算法、数据挖掘。',
     imageUrl: dengtingzhiPhoto,
@@ -70,7 +72,7 @@ const members = ref([
     category: '博士生',
     name: '拜佩豪',
     role: '2025级博士生',
-    description: '研究方向：多域学习、深度学习。',
+    description: '研究方向：深度学习、健康大数据分析。',
     imageUrl: baipeihaoPhoto,
   },
   {
@@ -93,42 +95,42 @@ const members = ref([
     category: '硕士生',
     name: '高奕淳',
     role: '2023级硕士生',
-    description: '研究方向：人工智能应用、自然语言处理。',
+    description: '研究方向：自然语言处理、健康大数据分析。',
     imageUrl: gaoyichunPhoto,
   },
   {
     category: '硕士生',
     name: '何羽双',
     role: '2023级硕士生',
-    description: '研究方向：智能系统、人机交互。',
-    imageUrl: defaultImg,
+    description: '研究方向：自然语言处理、健康大数据分析。',
+    imageUrl: heyushuangPhoto,
   },
   {
     category: '硕士生',
     name: '肖子璇',
     role: '2023级硕士生',
     description: '研究方向：计算机科学、软件工程。',
-    imageUrl: defaultImg,
+    imageUrl: xiaozixuanPhoto,
   },
   {
     category: '硕士生',
     name: '龙泳羽',
     role: '2023级硕士生',
     description: '研究方向：网络安全、数据隐私。',
-    imageUrl: defaultImg,
+    imageUrl: longyongyuPhoto,
   },
   {
     category: '硕士生',
     name: '俞雯雯',
     role: '2024级硕士生',
-    description: '研究方向：图像处理、计算机视觉。',
+    description: '研究方向：图神经网络、提示词工程。',
     imageUrl: yuwenwenPhoto,
   },
   {
     category: '硕士生',
     name: '张毅阳',
     role: '2024级硕士生',
-    description: '研究方向：大数据处理、并行计算。',
+    description: '研究方向：自然语言处理、提示词工程。',
     imageUrl: zhangyiyangPhoto,
   },
   {
@@ -149,7 +151,7 @@ const members = ref([
     category: '硕士生',
     name: '谭重阳',
     role: '2025级硕士生',
-    description: '研究方向：机器学习、深度学习。',
+    description: '研究方向：提示词工程、健康大数据分析。',
     imageUrl: tanchongyangPhoto,
   },
 ])
