@@ -1,6 +1,6 @@
 # Wang Lab Website (Vue 3 + Vite)
 
-实验室官网项目，基于 Vue 3、Vue Router 与 Vite 构建。
+实验室官网项目，基于 Vue 3、Vue Router 与 Vite 构建。其中，本项目VUE：3.5.18；Vite:7.0.6;Node:20.19.0||>=22.12.0
 
 ## 1. 快速开始
 
